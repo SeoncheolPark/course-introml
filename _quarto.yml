@@ -13,10 +13,10 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - text: "Lab"
+      - text: "Midterm Exam"
         menu:
-          - text: "Lab 00: Install R and R Studio"
-          - text: "Lab 01 ~ Lab 12"
+          - text: "Midterm Questions"
+            file: big2025mid01.qmd
     right: 
       - icon: house-door-fill
         href: https://seoncheolpark.github.io

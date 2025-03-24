@@ -1,11 +1,28 @@
 ---
-title: "course-introml"
+title: "AI and Machine Learning (2025 Spring, Hanyang University)"
 ---
 
-This is a Quarto website.
+## About this course
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+-   Course name: BIG3003 (11295/12984), AI and machine learning
 
-```{r}
-1 + 1
-```
+-   Instructor: [Seoncheol Park](https://seoncheolpark.github.io)
+
+-   TA: Min Ju Kim
+
+-   Language: Korean
+
+-   Schedule: TUE 09:00-12:00 (Room 222, Building 507)
+
+-   Textbook:
+
+    -   [An Introduction to Statistical Learning, with Applications in Python](https://www.statlearning.com/),
+    -   [기초부터 다지는 통계학 교과서 with 파이썬
+](https://www.yes24.com/Product/Goods/140042388)
+
+-   Grading:
+
+    -   Class attendance (10%)
+    -   중간고사 (35%)
+    -   독후감 (20%)
+    -   기말고사 (35%)
