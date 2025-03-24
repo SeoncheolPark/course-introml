@@ -1,0 +1,1792 @@
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.3.19)  24 MAR 2025 14:22
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**big2025mid01.tex
+(./big2025mid01.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(/usr/local/texlive/2024/texmf-dist/tex/latex/koma-script/scrartcl.cls
+Document Class: scrartcl 2023/07/07 v3.41 KOMA-Script document class (article)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
+))) (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 368.
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2023/07/07 v3.41 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip48
+\scr@dte@tocline@numbox=\box51
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 133.
+Class scrartcl Info: File `scrsize11pt.clo' used instead of
+(scrartcl)           file `scrsize11.clo' to setup font sizes on input line 244
+1.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+File: scrsize11pt.clo 2023/07/07 v3.41 KOMA-Script font size class option (11pt
+)
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2023/07/07 v3.41 KOMA-Script package (type area)
+\ta@bcor=\skip49
+\ta@div=\count184
+Package typearea Info: You've used standard option `letterpaper'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `paper=letter'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `paper=letter' there
+(typearea)             instead of `letterpaper', too.
+\ta@hblk=\skip50
+\ta@vblk=\skip51
+\ta@temp=\skip52
+\footheight=\skip53
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 11
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 614.295pt
+(typearea)              \textwidth      = 446.76004pt
+(typearea)              DIV departure   = -14%
+(typearea)              \evensidemargin = 11.49748pt
+(typearea)              \oddsidemargin  = 11.49748pt
+(typearea)             \paperheight     = 794.96999pt
+(typearea)              \textheight     = 582.20026pt
+(typearea)              \topmargin      = -37.40001pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.6pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 1799.
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\scr@dte@section@maxnumwidth=\skip54
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\section on input line 5082.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\section on input line 5082.
+\scr@dte@part@maxnumwidth=\skip55
+Class scrartcl Info: using compatibility default `afterindent=false'
+(scrartcl)           for `\part on input line 5090.
+\scr@dte@subsection@maxnumwidth=\skip56
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subsection on input line 5100.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subsection on input line 5100.
+\scr@dte@subsubsection@maxnumwidth=\skip57
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subsubsection on input line 5110.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subsubsection on input line 5110.
+\scr@dte@paragraph@maxnumwidth=\skip58
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\paragraph on input line 5121.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\paragraph on input line 5121.
+\scr@dte@subparagraph@maxnumwidth=\skip59
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subparagraph on input line 5131.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subparagraph on input line 5131.
+\abovecaptionskip=\skip60
+\belowcaptionskip=\skip61
+\c@pti@nb@sid@b@x=\box52
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 6309.
+\scr@dte@figure@maxnumwidth=\skip62
+\c@figure=\count191
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 6325.
+\scr@dte@table@maxnumwidth=\skip63
+\c@table=\count192
+Class scrartcl Info: Redefining `\numberline' on input line 6495.
+\bibindent=\dimen140
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip64
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen141
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen142
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count193
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count194
+\leftroot@=\count195
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count196
+\DOTSCASE@=\count197
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen143
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count198
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count199
+\dotsspace@=\muskip16
+\c@parentequation=\count266
+\dspbrk@lvl=\count267
+\tag@help=\toks19
+\row@=\count268
+\column@=\count269
+\maxfields@=\count270
+\andhelp@=\toks20
+\eqnshift@=\dimen144
+\alignsep@=\dimen145
+\tagshift@=\dimen146
+\tagwidth@=\dimen147
+\totwidth@=\dimen148
+\lineht@=\dimen149
+\@envbody=\toks21
+\multlinegap=\skip65
+\multlinetaggap=\skip66
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/unicode-math/unicode-math.sty (
+/usr/local/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-02-20 L3 programming layer (loader) 
+(/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2024-02-20 L3 backend support: XeTeX
+\g__graphics_track_int=\count271
+\l__pdf_internal_box=\box55
+\g__pdf_backend_object_int=\count272
+\g__pdf_backend_annotation_int=\count273
+\g__pdf_backend_link_int=\count274
+))
+Package: unicode-math 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLaTeX
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.s
+ty
+Package: unicode-math-xetex 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLa
+TeX
+(/usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-02-18 L3 Experimental document command parser
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.st
+y
+Package: l3keys2e 2024-02-18 LaTeX2e option processing using LaTeX3 keys
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2024/02/13 v2.9a Font selection for XeLaTeX and LuaLaTeX
+(/usr/local/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2024/02/13 v2.9a Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count275
+\l__fontspec_language_int=\count276
+\l__fontspec_strnum_int=\count277
+\l__fontspec_tmp_int=\count278
+\l__fontspec_tmpa_int=\count279
+\l__fontspec_tmpb_int=\count280
+\l__fontspec_tmpc_int=\count281
+\l__fontspec_em_int=\count282
+\l__fontspec_emdef_int=\count283
+\l__fontspec_strong_int=\count284
+\l__fontspec_strongdef_int=\count285
+\l__fontspec_tmpa_dim=\dimen150
+\l__fontspec_tmpb_dim=\dimen151
+\l__fontspec_tmpc_dim=\dimen152
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (/usr/
+local/texlive/2024/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+))
+\g__um_fam_int=\count286
+\g__um_fonts_used_int=\count287
+\l__um_primecount_int=\count288
+\g__um_primekern_muskip=\muskip17
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/unicode-math/unicode-math-table.t
+ex))) (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count289
+)
+\MT@toks=\toks23
+\MT@tempbox=\box56
+\MT@count=\count290
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1059.
+LaTeX Info: Redefining \leftprotrusion on input line 1060.
+\MT@prot@toks=\toks24
+LaTeX Info: Redefining \rightprotrusion on input line 1078.
+LaTeX Info: Redefining \textls on input line 1368.
+\MT@outer@kern=\dimen153
+LaTeX Info: Redefining \textmicrotypecontext on input line 1988.
+\MT@listname@count=\count291
+(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/microtype-xetex.def
+File: microtype-xetex.def 2023/03/13 v3.1a Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 238.
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 274.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/xcolor/svgnam.def
+File: svgnam.def 2023/11/15 v3.01 Predefined colors according to SVG 1.1 (UK)
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/xcolor/x11nam.def
+File: x11nam.def 2023/11/15 v3.01 Predefined colors according to Unix/X11 (UK)
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+(/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count292
+\Gm@cntv=\count293
+\c@Gm@tempcnt=\count294
+\Gm@bindingoffset=\dimen154
+\Gm@wd@mp=\dimen155
+\Gm@odd@mp=\dimen156
+\Gm@even@mp=\dimen157
+\Gm@layoutwidth=\dimen158
+\Gm@layoutheight=\dimen159
+\Gm@layouthoffset=\dimen160
+\Gm@layoutvoffset=\dimen161
+\Gm@dimlist=\toks25
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
+\FV@CodeLineNo=\count295
+\FV@InFile=\read2
+\FV@TabBox=\box57
+\c@FancyVerbLine=\count296
+\FV@StepNumber=\count297
+\FV@OutFile=\write3
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip67
+\fb@frw=\dimen162
+\fb@frh=\dimen163
+\FrameRule=\dimen164
+\FrameSep=\dimen165
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
+\LTleft=\skip68
+\LTright=\skip69
+\LTpre=\skip70
+\LTpost=\skip71
+\LTchunksize=\count298
+\LTcapwidth=\dimen166
+\LT@head=\box58
+\LT@firsthead=\box59
+\LT@foot=\box60
+\LT@lastfoot=\box61
+\LT@gbox=\box62
+\LT@cols=\count299
+\LT@rows=\count300
+\c@LT@tables=\count301
+\c@LT@chunks=\count302
+\LT@p@ftn=\toks26
+)
+Class scrartcl Info: longtable captions redefined on input line 113.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen167
+\lightrulewidth=\dimen168
+\cmidrulewidth=\dimen169
+\belowrulesep=\dimen170
+\belowbottomsep=\dimen171
+\aboverulesep=\dimen172
+\abovetopsep=\dimen173
+\cmidrulesep=\dimen174
+\cmidrulekern=\dimen175
+\defaultaddspace=\dimen176
+\@cmidla=\count303
+\@cmidlb=\count304
+\@aboverulesep=\dimen177
+\@belowrulesep=\dimen178
+\@thisruleclass=\count305
+\@lastruleclass=\count306
+\@thisrulewidth=\dimen179
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen180
+\ar@mcellbox=\box63
+\extrarowheight=\dimen181
+\NC@list=\toks27
+\extratabsurround=\skip72
+\backup@length=\skip73
+\ar@cellbox=\box64
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count307
+\calc@Bcount=\count308
+\calc@Adimen=\dimen182
+\calc@Bdimen=\dimen183
+\calc@Askip=\skip74
+\calc@Bskip=\skip75
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count309
+\calc@Cskip=\skip76
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/footnotehyper/footnotehyper.sty
+Package: footnotehyper 2021/08/13 v1.1e hyperref aware footnote.sty (JFB)
+\FNH@notes=\box65
+\FNH@width=\dimen184
+\FNH@toks=\toks28
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 107.
+)
+\Gin@req@height=\dimen185
+\Gin@req@width=\dimen186
+)
+\pandoc@box=\box66
+(/usr/local/texlive/2024/texmf-dist/tex/latex/cjk-ko/kotex.sty
+Package: kotex 2015/04/19 v1.6 Korean TeX (ko.TeX)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/kotex-utf/kotex.cfg) (/usr/local/
+texlive/2024/texmf-dist/tex/xetex/xetexko/xetexko.sty
+Package: xetexko 2024/03/01 v4.3 typesetting Korean with XeTeX
+\XeTeXcharclassID=\XeTeXcharclass1
+\XeTeXcharclassCJ=\XeTeXcharclass2
+\XeTeXcharclassOP=\XeTeXcharclass3
+\XeTeXcharclassCL=\XeTeXcharclass4
+\XeTeXcharclassEX=\XeTeXcharclass5
+\XeTeXcharclassCM=\XeTeXcharclass6
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/unicode-data/load-unicode-xetex
+-classes.tex 
+load-unicode-xetex-classes.tex v1.17 (2023-09-18)
+Reading Unicode east Asian character class data
+# LineBreak-15.1.0.txt 
+# Date: 2023-07-28, 13:19:22 GMT [KW] 
+# EastAsianWidth-15.1.0.txt 
+# Date: 2023-07-28, 23:34:08 GMT 
+)
+\XeTeXcharclassHG=\XeTeXcharclass7
+\XeTeXcharclassJJ=\XeTeXcharclass8
+\XeTeXcharclassMD=\XeTeXcharclass9
+\XeTeXcharclassFS=\XeTeXcharclass10
+\XeTeXcharclassLD=\XeTeXcharclass11
+\XeTeXcharclassSY=\XeTeXcharclass12
+\XeTeXcharclassAO=\XeTeXcharclass13
+\XeTeXcharclassAC=\XeTeXcharclass14
+\XeTeXcharclassAM=\XeTeXcharclass15
+\XeTeXcharclassAH=\XeTeXcharclass16
+\XeTeXcharclassAP=\XeTeXcharclass17
+\XeTeXcharclassVC=\XeTeXcharclass18
+\XeKo@toks@=\toks29
+\XeKo@toks@ii=\toks30
+\XeKo@skip@=\skip77
+\XeKo@count@=\count310
+\XeKo@dimen@=\dimen187
+\XeKo@box@=\box67
+\XeKo@dotemph@box=\box68
+(/usr/local/texlive/2024/texmf-dist/tex/latex/cjk-ko/kolabels-utf.sty
+Package: kolabels-utf 2015/03/20 v1.5 UTF-8 Hangul item labels
+))) (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
+(/usr/local/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (/usr/local/texlive/2024/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/local/texlive/2024/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (/usr/local/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+(/usr/local/texlive/2024/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count311
+)
+\@linkdim=\dimen188
+\Hy@linkcounter=\count312
+\Hy@pagecounter=\count313
+(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
+) (/usr/local/texlive/2024/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count314
+(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4062.
+Package hyperref Info: Hyper figures OFF on input line 4179.
+Package hyperref Info: Link nesting OFF on input line 4184.
+Package hyperref Info: Hyper index ON on input line 4187.
+Package hyperref Info: Plain pages OFF on input line 4194.
+Package hyperref Info: Backreferencing OFF on input line 4199.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4446.
+\c@Hy@tempcnt=\count315
+(/usr/local/texlive/2024/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4784.
+\XeTeXLinkMargin=\dimen189
+(/usr/local/texlive/2024/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count316
+\Field@Width=\dimen190
+\Fld@charsize=\dimen191
+Package hyperref Info: Hyper figures OFF on input line 6063.
+Package hyperref Info: Link nesting OFF on input line 6068.
+Package hyperref Info: Hyper index ON on input line 6071.
+Package hyperref Info: backreferencing OFF on input line 6078.
+Package hyperref Info: Link coloring OFF on input line 6083.
+Package hyperref Info: Link coloring with OCG OFF on input line 6088.
+Package hyperref Info: PDF/A mode OFF on input line 6093.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count317
+\c@Item=\count318
+\c@Hfootnote=\count319
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2024-01-20 v7.01h Hyperref driver for XeTeX
+(/usr/local/texlive/2024/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box69
+\c@Hy@AnnotLevel=\count320
+\HyField@AnnotCount=\count321
+\Fld@listcount=\count322
+\c@bookmark@seq@number=\count323
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip78
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
+\c@tracingmulticols=\count324
+\mult@box=\box70
+\multicol@leftmargin=\dimen192
+\c@unbalance=\count325
+\c@collectmore=\count326
+\doublecol@number=\count327
+\multicoltolerance=\count328
+\multicolpretolerance=\count329
+\full@width=\dimen193
+\page@free=\dimen194
+\premulticols=\dimen195
+\postmulticols=\dimen196
+\multicolsep=\skip79
+\multicolbaselineskip=\skip80
+\partial@page=\box71
+\last@line=\box72
+\mc@boxedresult=\box73
+\maxbalancingoverflow=\dimen197
+\mult@rightbox=\box74
+\mult@grightbox=\box75
+\mult@firstbox=\box76
+\mult@gfirstbox=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\c@minrows=\count330
+\c@columnbadness=\count331
+\c@finalcolumnbadness=\count332
+\last@try=\dimen198
+\multicolovershoot=\dimen199
+\multicolundershoot=\dimen256
+\mult@nat@firstbox=\box114
+\colbreak@box=\box115
+\mc@col@check@num=\count333
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2023/07/05 v6.0f a miscellany of footnote facilities
+\FN@temptoken=\toks31
+\footnotemargin=\dimen257
+\@outputbox@depth=\dimen258
+Package footmisc Info: Declaring symbol style bringhurst on input line 696.
+Package footmisc Info: Declaring symbol style chicago on input line 704.
+Package footmisc Info: Declaring symbol style wiley on input line 713.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 724.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 744.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 765
+.
+) (/usr/local/texlive/2024/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2024/02/07 v24.2 The Babel package
+\babel@savecnt=\count334
+\U@D=\dimen259
+\l@unhyphenated=\language89
+(/usr/local/texlive/2024/texmf-dist/tex/generic/babel/xebabel.def)
+\bbl@readstream=\read3
+\bbl@dirlevel=\count335
+Package babel Info: You haven't specified a language as a class or package
+(babel)             option. I'll load 'nil'. Reported on input line 4258.
+(/usr/local/texlive/2024/texmf-dist/tex/generic/babel/nil.ldf
+Language: nil 2024/02/07 v24.2 Nil language
+\l@nil=\language90
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write4
+Excluding comment 'comment') (/usr/local/texlive/2024/texmf-dist/tex/latex/base
+/makeidx.sty
+Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
+) (/usr/local/texlive/2024/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+Package: xeCJK 2022/08/05 v3.9.1 Typesetting CJK scripts with XeLaTeX
+(/usr/local/texlive/2024/texmf-dist/tex/latex/ctex/ctexhook.sty
+Package: ctexhook 2022/07/14 v2.5.10 Document and package hooks (CTEX)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.st
+y
+(/usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate-20
+23-10-10.sty
+Package: xtemplate 2023-10-10 L3 Experimental prototype document functions
+\l__xtemplate_tmp_dim=\dimen260
+\l__xtemplate_tmp_int=\count336
+\l__xtemplate_tmp_muskip=\muskip19
+\l__xtemplate_tmp_skip=\skip81
+))
+\l__xeCJK_tmp_int=\count337
+\l__xeCJK_tmp_box=\box116
+\l__xeCJK_tmp_dim=\dimen261
+\l__xeCJK_tmp_skip=\skip82
+\g__xeCJK_space_factor_int=\count338
+\l__xeCJK_begin_int=\count339
+\l__xeCJK_end_int=\count340
+\c__xeCJK_HalfLeft_class_int=\XeTeXcharclass19
+\c__xeCJK_HalfRight_class_int=\XeTeXcharclass20
+\c__xeCJK_NormalSpace_class_int=\XeTeXcharclass21
+\c__xeCJK_CM_class_int=\XeTeXcharclass22
+\c__xeCJK_HangulJamo_class_int=\XeTeXcharclass23
+\l__xeCJK_last_skip=\skip83
+\c__xeCJK_none_node=\count341
+\g__xeCJK_node_int=\count342
+\c__xeCJK_CJK_node_dim=\dimen262
+\c__xeCJK_CJK-space_node_dim=\dimen263
+\c__xeCJK_default_node_dim=\dimen264
+\c__xeCJK_CJK-widow_node_dim=\dimen265
+\c__xeCJK_normalspace_node_dim=\dimen266
+\c__xeCJK_default-space_node_skip=\skip84
+\l__xeCJK_ccglue_skip=\skip85
+\l__xeCJK_ecglue_skip=\skip86
+\l__xeCJK_punct_kern_skip=\skip87
+\l__xeCJK_indent_box=\box117
+\l__xeCJK_last_penalty_int=\count343
+\l__xeCJK_last_bound_dim=\dimen267
+\l__xeCJK_last_kern_dim=\dimen268
+\l__xeCJK_widow_penalty_int=\count344
+
+Package xtemplate Info: Declaring object type 'xeCJK/punctuation' taking 0
+(xtemplate)             argument(s) on line 2396.
+
+\l__xeCJK_fixed_punct_width_dim=\dimen269
+\l__xeCJK_mixed_punct_width_dim=\dimen270
+\l__xeCJK_middle_punct_width_dim=\dimen271
+\l__xeCJK_fixed_margin_width_dim=\dimen272
+\l__xeCJK_mixed_margin_width_dim=\dimen273
+\l__xeCJK_middle_margin_width_dim=\dimen274
+\l__xeCJK_bound_punct_width_dim=\dimen275
+\l__xeCJK_bound_margin_width_dim=\dimen276
+\l__xeCJK_margin_minimum_dim=\dimen277
+\l__xeCJK_kerning_total_width_dim=\dimen278
+\l__xeCJK_same_align_margin_dim=\dimen279
+\l__xeCJK_different_align_margin_dim=\dimen280
+\l__xeCJK_kerning_margin_width_dim=\dimen281
+\l__xeCJK_kerning_margin_minimum_dim=\dimen282
+\l__xeCJK_bound_dim=\dimen283
+\l__xeCJK_reverse_bound_dim=\dimen284
+\l__xeCJK_margin_dim=\dimen285
+\l__xeCJK_minimum_bound_dim=\dimen286
+\l__xeCJK_kerning_margin_dim=\dimen287
+\g__xeCJK_family_int=\count345
+\l__xeCJK_fam_int=\count346
+\g__xeCJK_fam_allocation_int=\count347
+\l__xeCJK_verb_case_int=\count348
+\l__xeCJK_verb_exspace_skip=\skip88
+(/usr/local/texlive/2024/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
+File: xeCJK.cfg 2022/08/05 v3.9.1 Configuration file for xeCJK package
+))
+
+Class scrartcl Warning: Usage of package `fancyhdr' together
+(scrartcl)              with a KOMA-Script class is not recommended.
+(scrartcl)              I'd suggest to use 
+(scrartcl)              package `scrlayer' or `scrlayer-scrpage', because
+(scrartcl)              they support KOMA-Script classes.
+(scrartcl)              With `fancyhdr' several features of class `scrartcl'
+(scrartcl)              like options `headsepline', `footsepline' or command
+(scrartcl)              `\MakeMarkcase' and the commands `\setkomafont' and
+(scrartcl)              `\addtokomafont' for the page style elements need
+(scrartcl)              explicite user intervention to work.
+(scrartcl)              Nevertheless, using requested
+(scrartcl)              package `fancyhdr' on input line 146.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip89
+\f@nch@O@elh=\skip90
+\f@nch@O@erh=\skip91
+\f@nch@O@olh=\skip92
+\f@nch@O@orh=\skip93
+\f@nch@O@elf=\skip94
+\f@nch@O@erf=\skip95
+\f@nch@O@olf=\skip96
+\f@nch@O@orf=\skip97
+)
+
+Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less.
+(fancyhdr)                Please consider using the `twoside' option on input l
+ine 149.
+
+
+Package fontspec Warning: Font "NanumMyeongjo" does not contain requested
+(fontspec)                Script "CJK".
+
+
+Package fontspec Info: NanumMyeongjo scale = 0.9194643042941868.
+
+
+Package fontspec Info: NanumMyeongjo scale = 0.9194643042941868.
+
+
+Package fontspec Info: NanumMyeongjo ExtraBold scale = 0.9081123932000352.
+
+
+Package fontspec Info: NanumMyeongjo scale = 0.9194643042941868.
+
+
+Package fontspec Info: NanumMyeongjo/B scale = 0.9081123932000352.
+
+
+Package fontspec Info: Font family 'NanumMyeongjo(0)' created for font
+(fontspec)             'NanumMyeongjo' with options
+(fontspec)             [Scale=MatchLowercase,Script={CJK},Ligatures={TeX},BoldF
+ont={*
+(fontspec)             ExtraBold},AutoFakeSlant={0.167}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.9194643042941868]"NanumMyeongjo/OT:script=latn;l
+anguage=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9081123932000352]"NanumMyeongjo
+(fontspec)             ExtraBold/OT:script=latn;language=dflt;mapping=tex-text;
+"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.9194643042941868]"NanumMyeongjo/OT:script=latn;l
+anguage=dflt;slant=0.167;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.9081123932000352]"NanumMyeongjo/B/OT:script=latn
+;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen288
+\captionmargin=\dimen289
+\caption@leftmargin=\dimen290
+\caption@rightmargin=\dimen291
+\caption@width=\dimen292
+\caption@indent=\dimen293
+\caption@parindent=\dimen294
+\caption@hangindent=\dimen295
+Package caption Info: KOMA-Script document class detected.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption-koma.sto
+File: caption-koma.sto 2023/09/08 v2.0e Adaption of the caption package to the 
+KOMA-Script document classes (AR)
+))
+\c@caption@flags=\count349
+\c@continuedfloat=\count350
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: KOMA-Script scrextend package detected.
+\caption@addmargin@hsize=\dimen296
+\caption@addmargin@linewidth=\dimen297
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count351
+\float@exts=\toks32
+\float@box=\box118
+\@float@everytoks=\toks33
+\@floatcapt=\box119
+)
+\@float@every@codelisting=\toks34
+\c@codelisting=\count352
+(/usr/local/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count353
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count354
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
+File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
+\BKM@id=\count355
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/xurl/xurl.sty
+Package: xurl 2022/01/09 v 0.10 modify URL breaks
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 224.
+No file big2025mid01.aux.
+\openout1 = `big2025mid01.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 231.
+LaTeX Font Info:    ... okay on input line 231.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 231.
+LaTeX Font Info:    ... okay on input line 231.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 231.
+LaTeX Font Info:    ... okay on input line 231.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 231.
+LaTeX Font Info:    ... okay on input line 231.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 231.
+LaTeX Font Info:    ... okay on input line 231.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 231.
+LaTeX Font Info:    ... okay on input line 231.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 231.
+LaTeX Font Info:    ... okay on input line 231.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 231.
+LaTeX Font Info:    ... okay on input line 231.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 231.
+LaTeX Font Info:    ... okay on input line 231.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 231.
+LaTeX Font Info:    ... okay on input line 231.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 231.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 231.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 231.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 231.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 231.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 231.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 231.
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(0)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,BoldFont={latinmodern-math.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999967668407183]"[latinmodern-math.otf]/OT:scri
+pt=math;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999967668407183]"[latinmodern-math.otf]/OT:scri
+pt=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
+(Font)              scaled to size 10.95pt on input line 231.
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(1)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,SizeFeatures={{Size=9.3075-},{Size=6.57-9.3075,Font=
+latinmodern-math.otf,Style=MathScript},{Size=-6.57,Font=latinmodern-math.otf,St
+yle=MathScriptScript}},BoldFont={latinmodern-math.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <9.3075->s*[0.9999967668407183]"[latinmodern-math.otf]/O
+T:script=math;language=dflt;"<6.57-9.3075>s*[0.9999967668407183]"[latinmodern-m
+ath.otf]/OT:script=math;language=dflt;+ssty=0;"<-6.57>s*[0.9999967668407183]"[l
+atinmodern-math.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999967668407183]"[latinmodern-math.otf]/OT:scri
+pt=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 10.95pt on input line 231.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 231.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
+ line 231.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 231.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
+t line 231.
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000096766517402.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000096766517402.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000096766517402.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000096766517402.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000096766517402.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(2)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,SizeFeatures={{Size=9.3075-},{Size=6.57-9.3075,Font=
+latinmodern-math.otf,Style=MathScript},{Size=-6.57,Font=latinmodern-math.otf,St
+yle=MathScriptScript}},BoldFont={latinmodern-math.otf},ScaleAgain=1.0001,FontAd
+justment={\fontdimen
+(fontspec)             8\font =7.41315pt\relax \fontdimen 9\font
+(fontspec)             =4.3143pt\relax \fontdimen 10\font =4.8618pt\relax
+(fontspec)             \fontdimen 11\font =7.5117pt\relax \fontdimen 12\font
+(fontspec)             =3.77776pt\relax \fontdimen 13\font =3.97485pt\relax
+(fontspec)             \fontdimen 14\font =3.97485pt\relax \fontdimen 15\font
+(fontspec)             =3.16455pt\relax \fontdimen 16\font =2.70465pt\relax
+(fontspec)             \fontdimen 17\font =2.70465pt\relax \fontdimen 18\font
+(fontspec)             =2.7375pt\relax \fontdimen 19\font =2.19pt\relax
+(fontspec)             \fontdimen 22\font =2.7375pt\relax \fontdimen 20\font
+(fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <9.3075->s*[1.000096766517402]"[latinmodern-math.otf]/OT
+:script=math;language=dflt;"<6.57-9.3075>s*[1.000096766517402]"[latinmodern-mat
+h.otf]/OT:script=math;language=dflt;+ssty=0;"<-6.57>s*[1.000096766517402]"[lati
+nmodern-math.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =7.41315pt\relax \fontdimen 9\font
+(fontspec)             =4.3143pt\relax \fontdimen 10\font =4.8618pt\relax
+(fontspec)             \fontdimen 11\font =7.5117pt\relax \fontdimen 12\font
+(fontspec)             =3.77776pt\relax \fontdimen 13\font =3.97485pt\relax
+(fontspec)             \fontdimen 14\font =3.97485pt\relax \fontdimen 15\font
+(fontspec)             =3.16455pt\relax \fontdimen 16\font =2.70465pt\relax
+(fontspec)             \fontdimen 17\font =2.70465pt\relax \fontdimen 18\font
+(fontspec)             =2.7375pt\relax \fontdimen 19\font =2.19pt\relax
+(fontspec)             \fontdimen 22\font =2.7375pt\relax \fontdimen 20\font
+(fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1.000096766517402]"[latinmodern-math.otf]/OT:scrip
+t=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =7.41315pt\relax \fontdimen 9\font
+(fontspec)             =4.3143pt\relax \fontdimen 10\font =4.8618pt\relax
+(fontspec)             \fontdimen 11\font =7.5117pt\relax \fontdimen 12\font
+(fontspec)             =3.77776pt\relax \fontdimen 13\font =3.97485pt\relax
+(fontspec)             \fontdimen 14\font =3.97485pt\relax \fontdimen 15\font
+(fontspec)             =3.16455pt\relax \fontdimen 16\font =2.70465pt\relax
+(fontspec)             \fontdimen 17\font =2.70465pt\relax \fontdimen 18\font
+(fontspec)             =2.7375pt\relax \fontdimen 19\font =2.19pt\relax
+(fontspec)             \fontdimen 22\font =2.7375pt\relax \fontdimen 20\font
+(fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 231.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
+t line 231.
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 231.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
+t line 231.
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998967671640342.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998967671640342.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998967671640342.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998967671640342.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998967671640342.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(3)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,SizeFeatures={{Size=9.3075-},{Size=6.57-9.3075,Font=
+latinmodern-math.otf,Style=MathScript},{Size=-6.57,Font=latinmodern-math.otf,St
+yle=MathScriptScript}},BoldFont={latinmodern-math.otf},ScaleAgain=0.9999,FontAd
+justment={\fontdimen
+(fontspec)             8\font =0.438pt\relax \fontdimen 9\font =2.19pt\relax
+(fontspec)             \fontdimen 10\font =1.82864pt\relax \fontdimen 11\font
+(fontspec)             =1.21545pt\relax \fontdimen 12\font =6.56999pt\relax
+(fontspec)             \fontdimen 13\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <9.3075->s*[0.9998967671640342]"[latinmodern-math.otf]/O
+T:script=math;language=dflt;"<6.57-9.3075>s*[0.9998967671640342]"[latinmodern-m
+ath.otf]/OT:script=math;language=dflt;+ssty=0;"<-6.57>s*[0.9998967671640342]"[l
+atinmodern-math.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =0.438pt\relax \fontdimen 9\font
+(fontspec)             =2.19pt\relax \fontdimen 10\font =1.82864pt\relax
+(fontspec)             \fontdimen 11\font =1.21545pt\relax \fontdimen 12\font
+(fontspec)             =6.56999pt\relax \fontdimen 13\font =0pt\relax 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9998967671640342]"[latinmodern-math.otf]/OT:scri
+pt=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =0.438pt\relax \fontdimen 9\font
+(fontspec)             =2.19pt\relax \fontdimen 10\font =1.82864pt\relax
+(fontspec)             \fontdimen 11\font =1.21545pt\relax \fontdimen 12\font
+(fontspec)             =6.56999pt\relax \fontdimen 13\font =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 2
+31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
+t line 231.
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 231
+.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
+t line 231.
+LaTeX Info: Redefining \microtypecontext on input line 231.
+Package microtype Info: Applying patch `item' on input line 231.
+Package microtype Info: Applying patch `toc' on input line 231.
+Package microtype Info: Applying patch `eqnum' on input line 231.
+
+Package microtype Warning: Unable to apply patch `footnote' on input line 231.
+
+Package microtype Info: Applying patch `verbatim' on input line 231.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using protrusion set `basicmath'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
+File: mt-LatinModernRoman.cfg 2021/02/21 v1.1 microtype config. file: Latin Mod
+ern Roman (RS)
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(14.45377pt, 585.38747pt, 14.45377pt)
+* v-part:(T,H,B)=(43.36243pt, 664.88379pt, 86.72377pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=585.38747pt
+* \textheight=664.88379pt
+* \oddsidemargin=-57.81622pt
+* \evensidemargin=-57.81622pt
+* \topmargin=-66.30757pt
+* \headheight=28.0pt
+* \headsep=20.40001pt
+* \topskip=11.0pt
+* \footskip=47.6pt
+* \marginparwidth=55.84499pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Package fontspec Info: UnBatang scale = 0.8795907107958844.
+
+
+Package fontspec Info: UnBatang scale = 0.8795907107958844.
+
+
+Package fontspec Info: UnBatangBold scale = 0.8791706698654357.
+
+
+Package fontspec Info: Font family 'UnBatang.ttf(0)' created for font
+(fontspec)             'UnBatang.ttf' with options
+(fontspec)             [Scale=MatchLowercase,Ligatures=TeX,BoldFont={UnBatangBo
+ld.ttf},Script={Hangul},Language={Korean}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.8795907107958844]"[UnBatang.ttf]/OT:script=hang;
+language=KOR;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.8791706698654357]"[UnBatangBold.ttf]/OT:script=h
+ang;language=KOR;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/UnBatang.ttf(0)/m/n' will be
+(Font)              scaled to size 9.63153pt on input line 231.
+
+Package fontspec Warning: Font "NanumGothic" does not contain requested Script
+(fontspec)                "CJK".
+
+
+Package fontspec Info: NanumGothic scale = 0.861996984484868.
+
+
+Package fontspec Info: NanumGothic scale = 0.861996984484868.
+
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmss' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Package fontspec Info: NanumGothic ExtraBold scale = 0.861996984484868.
+
+
+Package fontspec Info: NanumGothic scale = 0.861996984484868.
+
+
+Package fontspec Info: NanumGothic/B scale = 0.861996984484868.
+
+
+Package fontspec Info: Font family 'NanumGothic(0)' created for font
+(fontspec)             'NanumGothic' with options
+(fontspec)             [Scale=MatchLowercase,Script={CJK},Ligatures={TeX},BoldF
+ont={*
+(fontspec)             ExtraBold},AutoFakeSlant={0.167}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.861996984484868]"NanumGothic/OT:language=dflt;ma
+pping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.861996984484868]"NanumGothic
+(fontspec)             ExtraBold/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.861996984484868]"NanumGothic/OT:language=dflt;sl
+ant=0.167;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.861996984484868]"NanumGothic/B/OT:language=dflt;
+mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+
+Package fontspec Info: UnDotum scale = 0.8484245002756815.
+
+
+Package fontspec Info: UnDotum scale = 0.8484245002756815.
+
+
+Package fontspec Info: UnDotumBold scale = 0.8484245002756815.
+
+
+Package fontspec Info: Font family 'UnDotum.ttf(0)' created for font
+(fontspec)             'UnDotum.ttf' with options
+(fontspec)             [Scale=MatchLowercase,Ligatures=TeX,BoldFont={UnDotumBol
+d.ttf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.8484245002756815]"[UnDotum.ttf]/OT:language=dflt
+;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.8484245002756815]"[UnDotumBold.ttf]/OT:language=
+dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+
+Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
+(xeCJK)                
+(xeCJK)                Try to use `\setCJKmonofont[<...>]{<...>}' to define
+(xeCJK)                it.
+
+
+Package fontspec Info: UnDotum scale = 0.8484245002756815.
+
+
+Package fontspec Info: UnDotum scale = 0.8484245002756815.
+
+
+Package fontspec Info: UnDotum scale = 0.8484245002756815.
+
+
+Package fontspec Info: UnDotum scale = 0.8484245002756815.
+
+
+Package fontspec Info: UnDotumBold scale = 0.8484245002756815.
+
+
+Package fontspec Info: Font family 'UnDotum.ttf(1)' created for font
+(fontspec)             'UnDotum.ttf' with options
+(fontspec)             [Scale=MatchLowercase,BoldFont={UnDotumBold.ttf},Upright
+Features={SizeFeatures={{Size={-8.5},
+(fontspec)             FakeStretch=1.062}, {Size={8.5-11}, FakeStretch=1.05 },
+(fontspec)             {Size={11-}, FakeStretch=1.03
+(fontspec)             }}},BoldFeatures={SizeFeatures={{Size={-},
+(fontspec)             FakeStretch=1.05 }}},WordSpace={1.66667,0,0}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <-8.5>s*[0.8484245002756815]"[UnDotum.ttf]/OT:language=d
+flt;extend=1.062;"<8.5-11>s*[0.8484245002756815]"[UnDotum.ttf]/OT:language=dflt
+;extend=1.05;"<11->s*[0.8484245002756815]"[UnDotum.ttf]/OT:language=dflt;extend
+=1.03;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1.66667\fontdimen 2\font \fontdimen
+(fontspec)             3\font =0\fontdimen 3\font \fontdimen 4\font
+(fontspec)             =0\fontdimen 4\font 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.8484245002756815]"[UnDotumBold.ttf]/OT:language=
+dflt;extend=1.05;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1.66667\fontdimen 2\font \fontdimen
+(fontspec)             3\font =0\fontdimen 3\font \fontdimen 4\font
+(fontspec)             =0\fontdimen 4\font 
+
+Package hyperref Info: Link coloring ON on input line 231.
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Font shape `TU/UnDotum.ttf(0)/m/n' will be
+(Font)              scaled to size 9.29018pt on input line 233.
+LaTeX Font Info:    Font shape `TU/UnDotum.ttf(0)/bx/n' in size <10.95> not ava
+ilable
+(Font)              Font shape `TU/UnDotum.ttf(0)/b/n' tried instead on input l
+ine 233.
+LaTeX Font Info:    Font shape `TU/UnDotum.ttf(0)/b/n' will be
+(Font)              scaled to size 9.29018pt on input line 233.
+LaTeX Font Info:    Font shape `TU/UnDotum.ttf(0)/bx/n' in size <20.74> not ava
+ilable
+(Font)              Font shape `TU/UnDotum.ttf(0)/b/n' tried instead on input l
+ine 233.
+LaTeX Font Info:    Font shape `TU/UnDotum.ttf(0)/b/n' will be
+(Font)              scaled to size 17.5962pt on input line 233.
+LaTeX Font Info:    Font shape `TU/NanumGothic(0)/b/n' will be
+(Font)              scaled to size 17.87787pt on input line 233.
+LaTeX Font Info:    Font shape `TU/UnBatang.ttf(0)/m/n' will be
+(Font)              scaled to size 12.66612pt on input line 233.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 233.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 233.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 233.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
+33.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 14.4013pt on input line 233.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 10.00092pt on input line 233.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.00064pt on input line 233.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 14.39845pt on input line 233.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 9.99893pt on input line 233.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 6.99925pt on input line 233.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 233
+.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 233
+.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Font shape `TU/UnDotum.ttf(0)/bx/n' in size <14.4> not avai
+lable
+(Font)              Font shape `TU/UnDotum.ttf(0)/b/n' tried instead on input l
+ine 235.
+LaTeX Font Info:    Font shape `TU/UnDotum.ttf(0)/b/n' will be
+(Font)              scaled to size 12.21722pt on input line 235.
+LaTeX Font Info:    Font shape `TU/NanumGothic(0)/b/n' will be
+(Font)              scaled to size 12.41278pt on input line 235.
+LaTeX Font Info:    Font shape `TU/NanumMyeongjo(0)/m/n' will be
+(Font)              scaled to size 10.06812pt on input line 239.
+LaTeX Font Info:    Font shape `TU/UnDotum.ttf(1)/m/n' will be
+(Font)              scaled to size 9.29018pt on input line 247.
+[1
+
+
+]
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 7.665pt on input line 335.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 5.475pt on input line 335.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 10.95099pt on input line 335.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.66568pt on input line 335.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.4755pt on input line 335.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 10.94882pt on input line 335.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 7.66417pt on input line 335.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.47441pt on input line 335.
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 341.
+LaTeX Font Info:    Font shape `TU/UnDotum.ttf(1)/bx/n' in size <10.95> not ava
+ilable
+(Font)              Font shape `TU/UnDotum.ttf(1)/b/n' tried instead on input l
+ine 341.
+LaTeX Font Info:    Font shape `TU/UnDotum.ttf(1)/b/n' will be
+(Font)              scaled to size 9.29018pt on input line 341.
+File: images/hanyang.png Graphic file (type bmp)
+<images/hanyang.png>
+
+LaTeX Font Warning: Font shape `TU/UnBatang.ttf(0)/m/sl' undefined
+(Font)              using `TU/UnBatang.ttf(0)/m/n' instead on input line 454.
+
+LaTeX Font Info:    Font shape `TU/UnBatang.ttf(0)/m/sl' will be
+(Font)              scaled to size 9.63153pt on input line 454.
+LaTeX Font Info:    Font shape `TU/NanumMyeongjo(0)/m/sl' in size <10.95> not a
+vailable
+(Font)              Font shape `TU/NanumMyeongjo(0)/m/it' tried instead on inpu
+t line 454.
+LaTeX Font Info:    Font shape `TU/NanumMyeongjo(0)/m/it' will be
+(Font)              scaled to size 10.06812pt on input line 454.
+
+Package fancyhdr Warning: \headheight is too small (28.0pt): 
+(fancyhdr)                Make it at least 47.4967pt, for example:
+(fancyhdr)                \setlength{\headheight}{47.4967pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.4967pt}.
+
+[2]
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <14.4> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 534.
+LaTeX Font Info:    Font shape `TU/UnDotum.ttf(1)/bx/n' in size <14.4> not avai
+lable
+(Font)              Font shape `TU/UnDotum.ttf(1)/b/n' tried instead on input l
+ine 534.
+LaTeX Font Info:    Font shape `TU/UnDotum.ttf(1)/b/n' will be
+(Font)              scaled to size 12.21722pt on input line 534.
+File: images/hanyang.png Graphic file (type bmp)
+<images/hanyang.png>
+
+LaTeX Font Warning: Font shape `TU/UnDotum.ttf(1)/m/sl' undefined
+(Font)              using `TU/UnDotum.ttf(1)/m/n' instead on input line 556.
+
+LaTeX Font Info:    Font shape `TU/UnDotum.ttf(1)/m/sl' will be
+(Font)              scaled to size 9.29018pt on input line 556.
+
+Package fancyhdr Warning: \headheight is too small (28.0pt): 
+(fancyhdr)                Make it at least 47.4967pt, for example:
+(fancyhdr)                \setlength{\headheight}{47.4967pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.4967pt}.
+
+[3]
+File: images/hanyang.png Graphic file (type bmp)
+<images/hanyang.png>
+
+Package fancyhdr Warning: \headheight is too small (28.0pt): 
+(fancyhdr)                Make it at least 47.4967pt, for example:
+(fancyhdr)                \setlength{\headheight}{47.4967pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.4967pt}.
+
+[4]
+File: images/hanyang.png Graphic file (type bmp)
+<images/hanyang.png>
+
+Package fancyhdr Warning: \headheight is too small (28.0pt): 
+(fancyhdr)                Make it at least 47.4967pt, for example:
+(fancyhdr)                \setlength{\headheight}{47.4967pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.4967pt}.
+
+[5]
+Overfull \hbox (138.95483pt too wide) in paragraph at lines 891--891
+[]\TU/lmtt/m/n/10.95 /Library/Frameworks/Python.framework/Versions/3.12/lib/pyt
+hon3.12/site-packages/IPython/core/formatters.py:344: FutureWarning:[] 
+ []
+
+
+Overfull \hbox (1076.00093pt too wide) in paragraph at lines 891--891
+[]\TU/lmtt/m/n/10.95 In future versions []DataFrame.to_latex[] is expected to u
+tilise the base implementation of []Styler.to_latex[] for formatting and render
+ing. The arguments signature may therefore change. It is recommended instead to
+ use []DataFrame.style.to_latex[] which also contains additional functionality.
+[] 
+ []
+
+File: images/hanyang.png Graphic file (type bmp)
+<images/hanyang.png>
+
+Package fancyhdr Warning: \headheight is too small (28.0pt): 
+(fancyhdr)                Make it at least 47.4967pt, for example:
+(fancyhdr)                \setlength{\headheight}{47.4967pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.4967pt}.
+
+[6]
+Overfull \hbox (138.95483pt too wide) in paragraph at lines 934--934
+[]\TU/lmtt/m/n/10.95 /Library/Frameworks/Python.framework/Versions/3.12/lib/pyt
+hon3.12/site-packages/IPython/core/formatters.py:344: FutureWarning:[] 
+ []
+
+
+Overfull \hbox (1076.00093pt too wide) in paragraph at lines 934--934
+[]\TU/lmtt/m/n/10.95 In future versions []DataFrame.to_latex[] is expected to u
+tilise the base implementation of []Styler.to_latex[] for formatting and render
+ing. The arguments signature may therefore change. It is recommended instead to
+ use []DataFrame.style.to_latex[] which also contains additional functionality.
+[] 
+ []
+
+
+Overfull \hbox (138.95483pt too wide) in paragraph at lines 967--967
+[]\TU/lmtt/m/n/10.95 /Library/Frameworks/Python.framework/Versions/3.12/lib/pyt
+hon3.12/site-packages/IPython/core/formatters.py:344: FutureWarning:[] 
+ []
+
+
+Overfull \hbox (1076.00093pt too wide) in paragraph at lines 967--967
+[]\TU/lmtt/m/n/10.95 In future versions []DataFrame.to_latex[] is expected to u
+tilise the base implementation of []Styler.to_latex[] for formatting and render
+ing. The arguments signature may therefore change. It is recommended instead to
+ use []DataFrame.style.to_latex[] which also contains additional functionality.
+[] 
+ []
+
+File: images/hanyang.png Graphic file (type bmp)
+<images/hanyang.png>
+
+Package fancyhdr Warning: \headheight is too small (28.0pt): 
+(fancyhdr)                Make it at least 47.4967pt, for example:
+(fancyhdr)                \setlength{\headheight}{47.4967pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.4967pt}.
+
+[7]
+Overfull \hbox (138.95483pt too wide) in paragraph at lines 1000--1000
+[]\TU/lmtt/m/n/10.95 /Library/Frameworks/Python.framework/Versions/3.12/lib/pyt
+hon3.12/site-packages/IPython/core/formatters.py:344: FutureWarning:[] 
+ []
+
+
+Overfull \hbox (1076.00093pt too wide) in paragraph at lines 1000--1000
+[]\TU/lmtt/m/n/10.95 In future versions []DataFrame.to_latex[] is expected to u
+tilise the base implementation of []Styler.to_latex[] for formatting and render
+ing. The arguments signature may therefore change. It is recommended instead to
+ use []DataFrame.style.to_latex[] which also contains additional functionality.
+[] 
+ []
+
+
+Overfull \hbox (138.95483pt too wide) in paragraph at lines 1027--1027
+[]\TU/lmtt/m/n/10.95 /Library/Frameworks/Python.framework/Versions/3.12/lib/pyt
+hon3.12/site-packages/IPython/core/formatters.py:344: FutureWarning:[] 
+ []
+
+
+Overfull \hbox (1076.00093pt too wide) in paragraph at lines 1027--1027
+[]\TU/lmtt/m/n/10.95 In future versions []DataFrame.to_latex[] is expected to u
+tilise the base implementation of []Styler.to_latex[] for formatting and render
+ing. The arguments signature may therefore change. It is recommended instead to
+ use []DataFrame.style.to_latex[] which also contains additional functionality.
+[] 
+ []
+
+
+Overfull \hbox (138.95483pt too wide) in paragraph at lines 1047--1047
+[]\TU/lmtt/m/n/10.95 /Library/Frameworks/Python.framework/Versions/3.12/lib/pyt
+hon3.12/site-packages/IPython/core/formatters.py:344: FutureWarning:[] 
+ []
+
+
+Overfull \hbox (1076.00093pt too wide) in paragraph at lines 1047--1047
+[]\TU/lmtt/m/n/10.95 In future versions []DataFrame.to_latex[] is expected to u
+tilise the base implementation of []Styler.to_latex[] for formatting and render
+ing. The arguments signature may therefore change. It is recommended instead to
+ use []DataFrame.style.to_latex[] which also contains additional functionality.
+[] 
+ []
+
+
+Overfull \hbox (138.95483pt too wide) in paragraph at lines 1074--1074
+[]\TU/lmtt/m/n/10.95 /Library/Frameworks/Python.framework/Versions/3.12/lib/pyt
+hon3.12/site-packages/IPython/core/formatters.py:344: FutureWarning:[] 
+ []
+
+
+Overfull \hbox (1076.00093pt too wide) in paragraph at lines 1074--1074
+[]\TU/lmtt/m/n/10.95 In future versions []DataFrame.to_latex[] is expected to u
+tilise the base implementation of []Styler.to_latex[] for formatting and render
+ing. The arguments signature may therefore change. It is recommended instead to
+ use []DataFrame.style.to_latex[] which also contains additional functionality.
+[] 
+ []
+
+File: images/hanyang.png Graphic file (type bmp)
+<images/hanyang.png>
+
+Package fancyhdr Warning: \headheight is too small (28.0pt): 
+(fancyhdr)                Make it at least 47.4967pt, for example:
+(fancyhdr)                \setlength{\headheight}{47.4967pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.4967pt}.
+
+[8]
+Overfull \hbox (138.95483pt too wide) in paragraph at lines 1102--1102
+[]\TU/lmtt/m/n/10.95 /Library/Frameworks/Python.framework/Versions/3.12/lib/pyt
+hon3.12/site-packages/IPython/core/formatters.py:344: FutureWarning:[] 
+ []
+
+
+Overfull \hbox (1076.00093pt too wide) in paragraph at lines 1102--1102
+[]\TU/lmtt/m/n/10.95 In future versions []DataFrame.to_latex[] is expected to u
+tilise the base implementation of []Styler.to_latex[] for formatting and render
+ing. The arguments signature may therefore change. It is recommended instead to
+ use []DataFrame.style.to_latex[] which also contains additional functionality.
+[] 
+ []
+
+
+Overfull \hbox (138.95483pt too wide) in paragraph at lines 1130--1130
+[]\TU/lmtt/m/n/10.95 /Library/Frameworks/Python.framework/Versions/3.12/lib/pyt
+hon3.12/site-packages/IPython/core/formatters.py:344: FutureWarning:[] 
+ []
+
+
+Overfull \hbox (1076.00093pt too wide) in paragraph at lines 1130--1130
+[]\TU/lmtt/m/n/10.95 In future versions []DataFrame.to_latex[] is expected to u
+tilise the base implementation of []Styler.to_latex[] for formatting and render
+ing. The arguments signature may therefore change. It is recommended instead to
+ use []DataFrame.style.to_latex[] which also contains additional functionality.
+[] 
+ []
+
+File: images/hanyang.png Graphic file (type bmp)
+<images/hanyang.png>
+
+Package fancyhdr Warning: \headheight is too small (28.0pt): 
+(fancyhdr)                Make it at least 47.4967pt, for example:
+(fancyhdr)                \setlength{\headheight}{47.4967pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.4967pt}.
+
+[9]
+File: images/hanyang.png Graphic file (type bmp)
+<images/hanyang.png>
+
+Package fancyhdr Warning: \headheight is too small (28.0pt): 
+(fancyhdr)                Make it at least 47.4967pt, for example:
+(fancyhdr)                \setlength{\headheight}{47.4967pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-19.4967pt}.
+
+[10]
+! Undefined control sequence.
+<argument> \n 
+              
+l.1232 ...}{"}\textcolor{QuartoInternalColor2}{)]}
+                                                   
+Here is how much of TeX's memory you used:
+ 31016 strings out of 474773
+ 582382 string characters out of 5757724
+ 1949839 words of memory out of 5000000
+ 52736 multiletter control sequences out of 15000+600000
+ 565362 words of font info for 126 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 108i,12n,123p,10907b,2745s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on big2025mid01.pdf (10 pages).
