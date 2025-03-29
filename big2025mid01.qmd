@@ -1,0 +1,1644 @@
+---
+title: "2025 인공지능과 머신러닝 중간고사"
+format:
+  unilur-html+solution:
+    toc: true
+    toc-depth: 2
+    toc-location: left
+jupyter: python3
+---
+
+# 주의사항
+
+- 2025 인공지능과 머신러닝 중간고사에서는 구글 등 인터넷 검색, chatGPT, 교재 및 강의노트 또한 모두 이용할 수 있습니다.
+
+- 다만 타인과 의논하는 행위는 금지하도록 하겠습니다.
+
+- Python과 R을 모두 이용할 수 있습니다.
+
+- 또한 덧셈 등 기본적인 연산을 할 때에는 꼭 코딩을 이용하셔야 합니다. 예를 들면 `1+1`을 손으로 계산해서 `2`로 제출하는 경우에는 점수를 인정하지 않겠습니다. 다음과 같이 코딩으로 계산해야 합니다.
+
+```{python}
+1 + 1
+```
+
+- 제한시간을 어길 경우, 즉 늦을 경우 제한시간 이내에 제출한 과제의 점수 중 최하점보다 더 낮은 점수만 획득할 수 있습니다.
+
+- 각 문제별 답 코드를 작성하여 업로드해 주세요. 업로드 파일 형식은 `.py`, `.ipynb`, `.r`, `.rmd`, `.qmd`, `.txt`만 받겠습니다.
+
+- 각 문제의 답이 저나 조교님의 컴퓨터에서 실행되지 않으면 점수를 부여하지 않겠습니다. 어떤 코드를 실행시키기 전에 특정 모듈을 불러와야 하는지 꼭 체크하시길 바랍니다.
+
+- 현재 디렉토리가 어디인지를 항상 확인하는 것이 좋겠습니다. 데이터를 불러올때는 데이터가 파이썬 코드 파일과 같은 폴더에 있다고 가정하겠습니다.
+
+```{python}
+#| error: true
+#| eval: false
+import os
+os.getcwd()
+#디렉토리를 바꾸려면 chdir()함수 이용 가능
+```
+
+- 제출기한: 3월 26일(수) 23:59분까지
+
+<!--
+format:
+  unilur-html: default
+  unilur-html+solution:
+    # You have to specify a different output file otherwise they will 
+    # overwrite themselves
+    output-file: example-solution.html
+  unilur-pdf: default
+  unilur-pdf+solution:
+    output-file: example-solution.pdf
+-->
+
+# 변수와 타입
+
+<!--
+parallel data science 1.2
+os.path.dirname("~/Library/CloudStorage/Dropbox/R Markdown files/Lecture_Bigdata/Exam_me")
+os.chdir("/Library/CloudStorage/Dropbox/R Markdown files/Lecture_Bigdata/Exam_me")
+os.chdir("Dropbox/R Markdown files/Lecture_Bigdata/Exam_me")
+-->
+
+(@) 변수 `x`의 타입을 확인하시오.
+
+```{python}
+x = 'hello world'
+```
+
+```{python}
+#| unilur-solution: true
+type(x)
+```
+
+(@) 변수 `e`의 타입을 확인하시오.
+
+```{python}
+a = 2
+b = 5.0
+e = a*2+b
+```
+
+```{python}
+#| unilur-solution: true
+type(e)
+```
+
+# 함수
+
+(@) `squarefct`라는 함수는 `x`를 인풋으로 받아 (`x`는 양의 정수가 들어온다고 가정하자) `x`가 0 또는 음의 정수, 문자열 등이 들어오는 상황을 생각하지 않고 (이를 예외처리 하지 않는다고 말한다) $x^2$을 반환하는 함수이다. 아래 코드를 이용해 `squarefct` 함수를 완성하시오.
+
+```{python}
+#| error: true
+#| eval: false
+def squarefct(x):
+    #fill in (이 부분을 완성하세요)
+```
+
+```{python}
+#| unilur-solution: true
+def squarefct(x):
+    return x*x
+```
+
+(@) 앞서 작성한 `squarefct` 함수를 반드시 이용하여 $2^2$을 계산하시오.
+
+```{python}
+#| unilur-solution: true
+squarefct(2)
+```
+
+(@) `absvalue`라는 함수는 `x`를 인풋으로 받아 (`x`는 양의 정수가 들어온다고 가정하자) `x`가 0 또는 음의 정수, 문자열 등이 들어오는 상황을 생각하지 않고 (이를 예외처리 하지 않는다고 말한다) $|x|$를 반환하는 함수이다. `if`, `else`를 적어도 한 번 사용하여 `absvalue` 함수를 완성하시오.
+
+```{python}
+#| error: true
+#| eval: false
+def absvalue(x):
+    #fill in (이 부분을 완성하세요)
+```
+
+```{python}
+#| unilur-solution: true
+def absvalue(x):
+    if x>=0:
+        return x
+    else:
+        return -x
+```
+
+(@) 앞서 작성한 `absvalue` 함수를 반드시 이용하여 $|-2.5|$를 계산하시오.
+
+```{python}
+#| unilur-solution: true
+absvalue(-2.5)
+```
+
+(@) `print` 메소드를 이용해 아무런 인풋을 받지 않고 그냥 `Hello World!`를 출력하는 함수 `fun2`를 작성하시오.
+
+```{python}
+#| error: true
+#| eval: false
+def fun2():
+    #fill in (이 부분을 완성하세요)
+```
+
+```{python}
+#| error: true
+#| eval: true
+#| echo: false
+def fun2():
+    print('Hello World!')
+```
+
+```{python}
+#| error: true
+#| eval: true
+#| echo: true
+fun2()
+```
+
+결과는 다음과 같아야 한다.
+
+```{python}
+#| unilur-solution: true
+def fun2():
+    print('Hello World!')
+fun2()
+```
+
+# 반복문
+
+(@) `for`문을 반드시 이용하여 1부터 4까지의 숫자를 순서대로 출력하시오. 예시 결과는 다음과 같다.
+
+```{python}
+#| error: true
+#| echo: false
+for i in range(1,5):
+    print(i)
+```
+
+```{python}
+#| unilur-solution: true
+for i in range(1,5):
+    print(i)
+```
+
+(@) `while`문을 반드시 이용하여 1부터 4까지의 숫자를 순서대로 출력하시오. 예시 결과는 앞 문제와 같아야 한다.
+
+```{python}
+#| unilur-solution: true
+i=1
+while i<=4:
+    print(i)
+    i+=1
+
+```
+
+(@) `for`문 또는 `while`문을 사용하여 `*`를 다음과 같이 출력하는 코드를 작성하시오.
+
+```{python}
+#| error: true
+#| echo: false
+for i in range (6):
+    print ("*"*i)
+```
+
+```{python}
+#| unilur-solution: true
+for i in range (6):
+    print ("*"*i)
+
+```
+
+# 벡터
+
+(@) 다음과 같이 정의된 벡터 `x`의 길이 (벡터의 원소의 갯수)를 반환하는 코드를 작성하시오.
+
+```{python}
+#| error: true
+#| eval: false
+x=[1,2,3,4,5,6]
+```
+
+```{python}
+#| unilur-solution: true
+x=[1,2,3,4,5,6]
+len(x)
+
+```
+
+(@) 앞서 정의된 벡터 `x`의 여섯 번째 원소를 `3`으로 바꾸시오.
+
+```{python}
+#| unilur-solution: true
+x=[1,2,3,4,5,6]
+x[5]=3
+x
+
+```
+
+(@) 파이썬의 슬라이싱을 이용하면 `x`의 원하는 부분을 추출할 수 있다. 파이썬의 슬라이싱을 이용해 `x`의 두 번째, 세 번째, 네 번째 원소만을 출력하시오. 예시 결과는 다음과 같다. 
+
+```{python}
+#| error: true
+#| echo: false
+x[1:4]
+```
+
+```{python}
+#| unilur-solution: true
+x[1:4]
+```
+
+(@) `dir` 함수를 이용하면 `x`가 이용할 수 있는 객체의 목록을 보여준다.
+
+```{python}
+#| error: true
+#| eval: false
+dir(x)
+```
+
+`x`가 이용할 수 있는 객체의 목록에 있는 메소드 중 하나를 이용해 `x`의 여섯 번째 원소를 제거해 길이 `5`인 벡터로 바꾸시오. 예시 결과는 다음과 같다. 
+
+```{python}
+#| error: true
+#| echo: false
+x.pop();
+x
+```
+
+```{python}
+#| unilur-solution: true
+#x.pop();
+#x
+```
+
+(@) `x`가 이용할 수 있는 객체의 목록에 있는 메소드 중 하나를 이용해 앞서 만든 `x`에 `7`을 추가해 길이 `6`인 벡터로 바꾸시오. 예시 결과는 다음과 같다.
+
+```{python}
+#| error: true
+#| echo: false
+x.append(7)
+x
+```
+
+```{python}
+#| unilur-solution: true
+#x.append(7)
+#x
+```
+
+# `numpy`의 배열
+
+여기서부터는 반드시 `numpy` 모듈을 적어도 한 번 불러와야 한다.
+
+```{python}
+#| error: true
+#| echo: true
+import numpy as np 
+```
+
+(@) 다음과 같은 $4\times 3$ 배열(array) `A`를 만드시오.
+
+```{python}
+#| error: true
+#| echo: false
+A =np.reshape ( list ( range (1 ,13)) ,(4 ,3))
+#type(A)
+```
+
+```{python}
+#| error: true
+#| echo: true
+A
+```
+
+```{python}
+#| unilur-solution: true
+A =np.reshape ( list ( range (1 ,13)) ,(4 ,3))
+A
+#type(A)
+```
+
+(@) 다음과 같은 $2\times 2$ 배열 `B`를 만드시오.
+
+```{python}
+#| error: true
+#| echo: false
+B =np.reshape ( list ( range (1 ,7)) ,(2 ,3))
+#type(B)
+```
+
+```{python}
+#| error: true
+#| echo: true
+B
+```
+
+```{python}
+#| unilur-solution: true
+B =np.reshape ( list ( range (1 ,7)) ,(2 ,3))
+B
+#type(A)
+```
+
+(@) $A$와 $B^T$의 행렬곱 $AB^T$를 계산하시오. 결과는 다음과 같아야 한다.
+
+```{python}
+#| error: true
+#| echo: false
+np.dot(A, B.T)
+```
+
+```{python}
+#| unilur-solution: true
+np.dot(A, B.T)
+```
+
+<!--
+https://pybasall.tistory.com/33
+-->
+
+(@) `concatenate` 함수는 두 개의 배열을 하나로 합칠 수 있다. 다음과 같이 두 배열 `A2`, `B2`를 생성했다고 하자. `axis=0` 옵션을 이용하여 두 배열을 행으로 연결할 수 있다.
+
+```{python}
+#| error: true
+#| echo: true
+A2=np.array([ [1,2,3],[10,20,30] ])
+B2=np.array([ [4,5,6],[40,50,60] ])
+np.concatenate((A2,B2),axis=0)
+
+```
+
+`axis=1` 옵션을 이용하여 두 배열을 열로 연결하시오. 결과는 다음과 같아야 한다.
+
+```{python}
+#| error: true
+#| echo: false
+np.concatenate((A2,B2),axis=1)
+
+```
+
+```{python}
+#| unilur-solution: true
+np.concatenate((A2,B2),axis=1)
+
+```
+
+(@) `arange` 함수를 이용해 다음과 같이 등차수열을 만들 수 있다.
+
+```{python}
+#| error: true
+#| echo: true
+#np.arange 함수 사용, 인수는 시작 위치 start, 종료 위치 stop, 그리고 차잇값 step
+np.arange(start=1, stop=6, step=1)
+
+```
+
+`arange`를 이용해 다음과 같은 등차수열을 생성하시오.
+
+```{python}
+#| error: true
+#| echo: false
+#np.arange 함수 사용, 인수는 시작 위치 start, 종료 위치 stop, 그리고 차잇값 step
+np.arange(start=0.1, stop=0.8, step=0.2)
+
+```
+
+```{python}
+#| unilur-solution: true
+np.arange(start=0.1, stop=0.8, step=0.2)
+
+```
+
+
+# 기본적인 통계량 계산
+
+```{python}
+#| error: true
+#| echo: true
+import numpy as np 
+#(optional) 표시 자릿수 지정
+%precision 3
+```
+
+(@) 다음과 같은 가상의 데이터를 생성해 보기로 한다.
+
+```{python}
+#| error: true
+#| echo: true
+fake_data = np.array([2,3,3,4,4,4,4,5,5,6])
+fake_data
+#dir(fake_data)
+
+```
+
+`numpy`의 `sum` 모듈을 반드시 이용해 이 배열의 총합을 구하시오.
+
+```{python}
+#| error: true
+#| echo: false
+np.sum(fake_data)
+
+```
+
+```{python}
+#| unilur-solution: true
+np.sum(fake_data)
+
+```
+
+(@) `mean` 메소드를 이용하지 않고 대신 `sum`과 `len`을 이용하여 `fake_data`의 평균을 구하시오. 결과는 다음과 같아야 한다.
+
+```{python}
+#| error: true
+#| echo: false
+N = len(fake_data)
+sum_value = np.sum(fake_data)
+mu = sum_value / N
+mu
+
+```
+
+```{python}
+#| unilur-solution: true
+np.sum(fake_data)
+
+```
+
+(@) 데이터 $(x_1, \ldots, x_N)$ 의 모평균을 $\mu$ 라고 할 때, 모집단의 분산 $\sigma^2$ 에 대한 불편추정량 (여기서는 이를 불편분산이라고 하자)은 다음과 같다.
+$$
+\hat{\sigma}^2 = \frac{1}{N-1} \sum_{i=1}^N(x_i - \mu)^2
+$$
+
+`scipy`의 `var`메소드를 쓰지 않고 `numpy`의 `sum`을 이용해 `fake_data`의 불편분산을 구하시오. 제곱을 위해 `**`을 사용할 수 있다. 결과는 다음과 같아야 한다.
+
+```{python}
+#| error: true
+#| echo: false
+N = len(fake_data)
+sigma_2 = np.sum((fake_data - mu) ** 2) / (N-1)
+sigma_2
+
+```
+
+```{python}
+#| unilur-solution: true
+N = len(fake_data)
+sigma_2 = np.sum((fake_data - mu) ** 2) / (N-1)
+sigma_2
+
+```
+
+(@) 이번엔 `numpy`의 `std` 함수를 사용하여 `fake_data`의 불편표준편차를 구하시오. 불편표준편차를 구하기 위해서는 `ddof=1`로 두어야 한다. 결과는 다음과 같아야 한다.
+
+```{python}
+#| error: true
+#| echo: false
+np.std(fake_data , ddof=1)
+
+```
+
+```{python}
+#| unilur-solution: true
+np.std(fake_data , ddof=1)
+
+```
+
+(@) `numpy`의 `amax` 메소드를 이용해 `fake_data`의 최댓값을 구하시오. 결과는 다음과 같아야 한다.
+
+```{python}
+#| error: true
+#| echo: false
+np.amax(fake_data)
+
+```
+
+```{python}
+#| unilur-solution: true
+np.amax(fake_data)
+
+```
+
+(@) `numpy`의 `median` 메소드를 이용해 `fake_data`의 중앙값을 구하시오. 결과는 다음과 같아야 한다.
+
+
+```{python}
+#| error: true
+#| echo: false
+np.median(fake_data)
+
+```
+
+```{python}
+#| unilur-solution: true
+np.median(fake_data)
+
+```
+
+# 확률변수
+
+여기서는 `SciPy` 라이브러리를 추가로 이용한다. `SciPy`는 과학적 및 기술적 계산을 위한 파이썬 기반 오픈 소스 라이브러리로, 많은 기능들이 `Numpy`로 넘어갔으나 몇몇 기능을 위해 필요한 경우가 있다.
+
+```{python}
+#| error: true
+#| echo: true
+import numpy as np 
+import scipy.stats
+from scipy.stats import binom, t #이항분포, #t-분포
+ 
+```
+
+<!--
+https://wikidocs.net/265424
+-->
+
+(@) 공평한 동전 (성공 확률이 0.5)을 독립적으로 10번 던져 얻은 앞면의 수는 이항분포로 모델링 가능하다. `binom.pmf`를 이용해 위 상황에서 나온 앞면의 수가 5일 확률을 구하시오.
+
+```{python}
+#| unilur-solution: true
+k=5
+n=10
+p=0.5
+binom.pmf(k, n, p)
+```
+
+(@) 앞선 문제와 같은 상황에서 `binom.cdf`를 이용해 앞면의 수가 4 이하일 확률을 구하시오.
+
+```{python}
+#| unilur-solution: true
+n=10
+p=0.5
+binom.cdf(4, n, p)
+```
+
+<!--
+https://zephyrus1111.tistory.com/274
+-->
+
+(@) 자유도가 2인 $t$-분포를 다음과 같이 정의하였다.
+
+```{python}
+#| error: true
+#| echo: true
+t_rv = t(df=2)
+
+```
+
+`pdf` 메소드를 이용해 `[0, 2, 4]`에서의 `t_rv`의 확률밀도함수를 구하시오. 결과는 다음과 같다.
+
+```{python}
+#| error: true
+#| echo: false
+t_rv.pdf([0,2,4])
+
+```
+
+```{python}
+#| unilur-solution: true
+t_rv.pdf([0,2,4])
+```
+
+(@) `cdf` 메소드를 이용해 `[0, 2, 4]`에서의 `t_rv`의 누적분포함수를 구하시오. 결과는 다음과 같다.
+
+```{python}
+#| error: true
+#| echo: false
+t_rv.cdf([0,2,4])
+
+```
+
+```{python}
+#| unilur-solution: true
+t_rv.cdf([0,2,4])
+```
+
+(@) `ppf` 메소드를 이용해 확률이 `0.025`, `0.05`, `0.95`, `0.975`일 때 `t_rv`의 분위수를 구하시오. 결과는 다음과 같다.
+
+```{python}
+#| error: true
+#| echo: false
+t_rv.ppf([0.025,0.05,0.95,0.975])
+
+```
+
+```{python}
+#| unilur-solution: true
+t_rv.ppf([0.025,0.05,0.95,0.975])
+```
+
+# `pandas`의 `DataFrame`
+
+여기서부터는 반드시 `numpy`, `pandas` 모듈을 적어도 한 번 불러와야 한다.
+
+```{python}
+#| error: true
+#| echo: true
+import numpy as np 
+import pandas as pd
+```
+
+(@) `pandas`에 있는 `DataFrame` 메소드를 이용해 다음과 같은 데이터프레임을 생성하시오. 데이터프레임을 생성할 때 변수의 이름은 `example_df`로 하시오. 이때 `np.NaN`은 결측치를 나타낼 떄 쓴다. R에서는 `NA`와 `NaN`이 존재하지만, 파이썬에서는 `np.NaN`으로 `NA` 대신 많이 쓰기도 한다.
+
+```{python}
+#| error: true
+#| echo: false
+example_df=pd.DataFrame({'num':[1,3,2,4], 'name':['A','B','C',np.NaN], 'department':["Statistics", "Data Science", "Mathematics", np.NaN], 'age':[30, 20, 40, 10]})
+```
+
+```{python}
+#| error: true
+#| echo: true
+example_df
+```
+
+```{python}
+#| unilur-solution: true
+example_df=pd.DataFrame({'num':[1,3,2,4], 'name':['A','B','C',np.NaN], 'department':["Statistics", "Data Science", "Mathematics", np.NaN], 'age':[30, 20, 40, 10]})
+example_df
+```
+
+<!--
+https://applecoconut.tistory.com/entry/pandas-Dataframe%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%94%84%EB%A0%88%EC%9E%84-%EC%97%B4-%EC%A0%9C%EB%AA%A9columns-index%ED%96%89-%EB%B3%80%EA%B2%BD-%EB%B0%A9%EB%B2%95
+-->
+
+(@) 앞서 생성한 `example_df` 데이터프레임의 특정 열의 이름을 바꾸려면 다음과 같이 할 수 있다. 보통은 다른 데이터프레임에 할당하는 방식으로 변형된 데이터프레임을 저장하나, 원본 데이터프레임을 변경하고 싶다면 `inplace=True`를 붙여줘야 한다.
+
+```{python}
+#| error: true
+#| echo: true
+#| eval: false
+#example_df.rename(columns={'num':'nums'}, inplace=True)
+```
+
+앞서 만든 `example_df`의 두 번째 열의 이름을 `name`에서 `names`로 바꾸시오. 결과는 다음과 같아야 한다.
+
+```{python}
+#| error: true
+#| echo: false
+
+example_df.rename(columns={'name':'names'}, inplace=True)
+```
+
+```{python}
+#| error: true
+#| echo: true
+
+example_df
+```
+
+```{python}
+#| unilur-solution: true
+#example_df.rename(columns={'name':'names'}, inplace=True)
+
+```
+
+<!--
+https://rfriend.tistory.com/281
+-->
+
+(@) 앞서 만든 `example_df`의 행에 이름을 붙여주려면 `.index` 메소드를 이용할 수 있다. 이를 이용해 `example_df`의 행의 이름을 다음과 같이 바꿔주시오.
+
+```{python}
+#| error: true
+#| echo: false
+
+example_df.index = ['row1', 'row2', 'row3', 'row4']
+```
+
+```{python}
+#| error: true
+#| echo: true
+
+example_df
+```
+
+```{python}
+#| unilur-solution: true
+example_df.index = ['row1', 'row2', 'row3', 'row4']
+example_df
+
+```
+
+
+<!--
+https://rfriend.tistory.com/281
+-->
+
+(@) `pandas`의 `DataFrame`에는 다음과 같이 정렬하는 기능이 있다. 예를 들어 열 기준(`axis=0`) `num`에 대해 오름차순으로 정렬하려면 다음과 같이 하면 된다.
+
+```{python}
+#| error: true
+#| echo: true
+example_df.sort_values(by=['num'], axis=0)
+```
+
+참고로 행 기준으로 정렬하려면 문자와 숫자가 혼용되어 있어 오류가 나지만 마지막 행만은 `NaN`은 무시하고 정렬하기 때문에 오류 없이 정렬이 가능하다.
+
+```{python}
+#| error: true
+#| echo: true
+example_df.sort_values(by=['row4'], axis=1)
+```
+
+`example_df` 자료를 열 기준 `age`에 대해 오름차순으로 정렬하시오. 결과는 다음과 같아야 한다.
+
+```{python}
+#| error: true
+#| echo: false
+example_df.sort_values(by=['age'], axis=0)
+```
+
+```{python}
+#| unilur-solution: true
+example_df.sort_values(by=['age'], axis=0)
+
+```
+
+(@) `ascending=False` 옵션을 이용해 `example_df` 자료를 열 기준 `age`에 대해 내림차순으로 정렬하시오. 결과는 다음과 같아야 한다.
+
+```{python}
+#| error: true
+#| echo: false
+example_df.sort_values(by=['age'], axis=0, ascending=False)
+```
+
+```{python}
+#| unilur-solution: true
+example_df.sort_values(by=['age'], axis=0, ascending=False)
+
+```
+
+(@) `pandas`의 `dropna()` 메소드를 이용해 결측치가 있는 행(`axis=0`) 또는 열(`axis=1`)을 삭제할 수 있다. `example_df` 자료에 결측치가 있는 행을 `dropna()` 메소드를 반드시 이용하여 삭제하시오. 결과는 다음과 같아야 한다.
+
+```{python}
+#| error: true
+#| echo: false
+example_df.dropna(axis=0)
+```
+
+```{python}
+#| unilur-solution: true
+example_df.dropna(axis=0)
+
+```
+
+# `iris` 데이터
+
+다음과 같이 `iris.csv` 파일을 불러온다.
+
+```{python}
+#| error: true
+#| echo: true
+iris_data= pd.read_csv("iris.csv")
+iris_data.head(3)
+
+```
+
+또는 `seaborn`에 내장되어 있는 데이터를 사용해도 좋다. `seaborn`은 `matplotlib`를 더 편하게 사용할 수 있도록 만든 고수준 라이브러리이다.
+
+```{python}
+#| error: true
+#| echo: true
+import seaborn as sns
+iris_data = sns.load_dataset("iris")
+iris_data.head(3)
+
+```
+
+```{python}
+#| error: true
+#| echo: true
+iris_data.columns
+
+```
+
+(@) `iris_data` 의 행(데이터의 갯수)과 열(변수의 갯수를)의 크기를 반환하시오.
+
+```{python}
+#| unilur-solution: true
+
+iris_data.shape
+#또는
+len(iris_data) # num rows
+len(iris_data.columns) # num columns
+```
+
+(@) 파이썬의 `DataFrame`은 댜음과 같은 방법으로 일부의 column을 추출할 수 있다. 
+
+```{python}
+#| error: true
+#| echo: true
+iris_data[["petal_length"]].head(3)
+
+```
+
+`iris_data` 중 `sepal.length`, `sepal.width` 열만을 따로 뽑아서 `iris_data_two_cols`라는 변수에 저장하시오. `iris_data_two_cols`의 처음 세 개의 행은 다음과 같아야 한다.
+
+```{python}
+#| error: true
+#| echo: false
+iris_data_two_cols=iris_data[["sepal_length", "sepal_width"]]
+iris_data_two_cols.head(3)
+
+```
+
+```{python}
+#| unilur-solution: true
+
+iris_data_two_cols=iris_data[["sepal_length", "sepal_width"]]
+iris_data_two_cols.head(3)
+```
+
+<!--
+https://separang.tistory.com/91
+-->
+
+(@) `pandas`에서는 `loc`, `iloc` 등을 이용해 특정 row나 column 등을 불러올 수 있다. 다음의 실행결과를 보자.
+
+```{python}
+#| error: true
+#| echo: true
+iris_data.loc[:3]
+
+```
+
+```{python}
+#| error: true
+#| echo: true
+iris_data.iloc[:3]
+
+```
+
+`iloc[:3]`의 경우 `<3`까지의 행이 출력된 것을 볼 수 있다. 그리고 `loc`의 경우 colunm name을 이용해 일부 column만 추출할 수 있는데 `iloc`은 그렇지 않다.
+
+```{python}
+#| error: true
+#| echo: true
+iris_data.loc[:3,:'sepal_width']
+#iris_data.iloc[:3,:'sepal_width'] #오류 발생
+
+```
+
+`loc` 또는 `iloc`을 이용해 `iris_data`의 처음 다섯 개 행에 해당하는 부분의 `sepal_length`, `sepal_width`, `petal_length` 파트만을 추출하시오. 결과는 다음과 같아야 한다.
+
+```{python}
+#| error: true
+#| echo: false
+iris_data.loc[:4,:'petal_length']
+
+```
+
+```{python}
+#| unilur-solution: true
+
+iris_data.loc[:4,:'petal_length']
+
+```
+
+(@) 이 데이터의 `species`는 서로 다른 세 종의 붓꽃 명칭을 담고 있다. `pandas`의 `unique()` 함수를 이용해 서로 다른 세 종의 붓꽃 명칭을 출력하시오. 결과는 다음과 같아야 한다.
+
+```{python}
+#| error: true
+#| echo: false
+iris_data['species'].unique()
+
+```
+
+```{python}
+#| unilur-solution: true
+iris_data['species'].unique()
+
+```
+
+(@) 요약통계를 제공하는 메소드로 `.describe()`라는 메소드가 있다. `iris_data`의 요약통계를 구해보고 `sepal_length`, `sepal_width`, `petal_length`, `petal_width` 중 `mean`이 가장 큰 변수는 무엇인지 밝히시오.
+
+```{python}
+#| unilur-solution: true
+iris_data.describe()
+
+```
+
+(@) `iris_data`에서 `groupby`라는 메소드를 이용해 `species` 별로 `sepal_length`, `sepal_width`, `petal_length`, `petal_width` 의 평균을 계산하시오. 예시 결과는 다음과 같다.
+
+```{python}
+#| error: true
+#| echo: false
+iris_data.groupby('species').mean()
+
+```
+
+```{python}
+#| unilur-solution: true
+iris_data.groupby('species').mean()
+
+```
+
+(@) `numpy`의 `cov`는 공분산을 계산해준다. `iris_data`에서 `species`를 제외한 나머지의 공분산행렬을 구하시오. 결과는 다음과 같아야 한다.
+
+```{python}
+#| error: true
+#| echo: false
+iris_data.loc[:,:'petal_width'].cov()
+
+```
+
+```{python}
+#| unilur-solution: true
+iris_data.loc[:,:'petal_width'].cov()
+
+```
+
+(@) `pandas`의 `corr`는 상관계수를 계산해준다. `iris_data`에서 `species`를 제외한 나머지의 상관계수행렬을 구하시오.
+
+```{python}
+#| error: true
+#| echo: false
+iris_data.loc[:,:'petal_width'].corr()
+
+```
+
+```{python}
+#| unilur-solution: true
+iris_data.loc[:,:'petal_width'].corr()
+
+```
+
+# `Matplotlib`과 `seaborn`
+
+`pandas`에서도 자체적인 그래픽스를 제공하기는 하지만, 여기서는 `Matplotlib`과 `seaborn` 모듈을 통해 기본적인 그래픽을 그리는 방법에 대해 살펴보기로 한다.
+
+```{python}
+#| error: true
+#| echo: true
+import numpy as np 
+import pandas as pd
+from matplotlib import pyplot as plt
+#seaborn을 sns라는 이름으로 import한 후 sns.set() 함수를 실행하면 그래프의 디자인이 바뀜
+import seaborn as sns
+sns.set()
+#표시 자릿수 지정 (optional)
+%precision 3
+#그래프를 주피터 노트북에 그리실 분들은 다음을 추가
+%matplotlib inline
+```
+
+(@) 다음과 같이 `x`, `y` 두 개의 배열이 있다.
+
+```{python}
+#| error: true
+#| echo: true
+x = np.array([0,1,2,3,4,5,6,7,8,9])
+y = np.array([2,3,4,3,5,4,6,7,4,8])
+
+```
+
+`pyplot`의 `plot` 함수를 이용해 다음과 같이 `x`와 `y`의 꺾은선 그래프를 그리시오.
+```{python}
+#| error: true
+#| echo: false
+plt.plot(x, y, color='black')
+plt.show()
+
+```
+
+```{python}
+#| unilur-solution: true
+plt.plot(x, y, color='black')
+
+```
+
+(@) 앞서 그린 꺾은선 그래프에 제목으로 `Lineplot`, x축 이름으로 `x`, y축 이름으로 `y`를 추가하시오.
+
+```{python}
+#| error: true
+#| echo: false
+#| message: false
+plt.plot(x, y, color='black')
+plt.title("Lineplot")
+plt.xlabel("x")
+plt.ylabel("y")
+
+```
+
+```{python}
+#| unilur-solution: true
+plt.plot(x, y, color='black')
+plt.title("Lineplot")
+plt.xlabel("x")
+plt.ylabel("y")
+
+```
+
+(@) `histplot` 함수를 이용해 앞서 불러왔던 `iris_data` 의 `sepal_length`에 대한 히스토그램을 그리시오. `kde=True`로 하여 커널 밀도함수 추정 결과를 같이 보여줄 수 있다.
+
+```{python}
+#| error: true
+#| echo: false
+#| message: false
+sns.histplot(iris_data["sepal_length"], bins = 5, color = 'black', kde = True)
+
+```
+
+```{python}
+#| unilur-solution: true
+sns.histplot(iris_data["sepal_length"], bins = 5, color = 'black', kde = True)
+
+```
+
+(@) `iris_data`에서 `species`에 따른 `sepal_width`의 상자그림을 `boxplot` 함수를 이용해 작성하시오. 
+
+```{python}
+#| error: true
+#| echo: false
+#| message: false
+sns.boxplot(data=iris_data, x="species", y="sepal_width")
+
+```
+
+```{python}
+#| unilur-solution: true
+sns.boxplot(data=iris_data, x="species", y="sepal_width")
+
+```
+
+(@) `iris_data`에서 `species`에 따른 `petal_length`의 상자그림을 `violinplot` 함수를 이용해 작성하시오. 
+
+```{python}
+#| error: true
+#| echo: false
+#| message: false
+sns.violinplot(data=iris_data, x="species", y="petal_length")
+
+```
+
+```{python}
+#| unilur-solution: true
+sns.violinplot(data=iris_data, x="species", y="petal_length")
+
+```
+
+# 회귀분석 예제: `statsmodels`
+
+<!--
+https://stats.stackexchange.com/questions/47913/pandas-statsmodel-scikit-learn
+https://dot-p.tistory.com/entry/Ordinary-Least-Squares
+-->
+
+뒤에 나올 `scikit-learn`과 비교하여, `statsmodels`는 보다 전통적인 통계 방법론을 다루는데 초점이 맞춰진 라이브러리이다. 여기서는 시뮬레이션 데이터를 통해 회귀분석을 하는 방법을 익혀보기로 한다.
+
+```{python}
+#| error: true
+#| echo: true
+import pandas as pd 
+import numpy as np
+from matplotlib import pyplot as plt
+import seaborn as sns 
+import statsmodels.api as sm
+import statsmodels.formula.api as smf
+np.set_printoptions(precision=3)
+
+```
+
+시뮬레이션 자료는 다음과 같이 생성하기로 한다.
+
+- 관찰값의 수($n$): 100
+- 설명변수 $x_i$, 반응변수 $y_i$, $i=1,\ldots, 100$
+- 반응변수와 설명변수 사이에는 다음의 관계가 있다:
+$$
+y_i = \beta_0 + \beta_1 x_i + \varepsilon_i, \quad{} i=1,\ldots, 100
+$$
+이때 $\varepsilon_i$는 표준정규분포를 따르는 독립인 오차항이다.
+- 설명변수는 구간 $(0,10)$에서의 균등분포(uniform distribution)를 따르는 확률변수에서 독립적으로 100개를 만들어 생성된다. $\beta_0 = 1$, $\beta_1 =2$라고 두자.
+
+(@) `numpy`의 `random.normal` 함수를 통해 독립인 정규확률변수의 실현값을 생성할 수 있다. 예를 들어, 기댓값이 1이고 표준편차가 2인 정규확률분포에서 10개의 표본을 생성하려면 다음과 같이 하면 된다.
+
+```{python}
+#| error: true
+#| echo: true
+#| eval: false
+np.random.normal(size=10, loc=1, scale=2)
+
+```
+
+앞서 가정한 시뮬레이션 모형에 맞게, 표준정규분포를 따르는 100개의 표본을 독립적으로 생성하고 `epsilon`이라는 이름의 변수에 저장하시오. 예를 들어, `np.random.seed(1)`로 잡고 얻은 결과는 다음과 같다.
+
+```{python}
+#| error: true
+#| echo: true
+np.random.seed(1)
+#적절한 코드로 생성
+
+```
+
+```{python}
+#| error: true
+#| echo: false
+np.random.seed(1)
+epsilon=np.random.normal(size=100, loc=0, scale=1)
+
+```
+
+```{python}
+#| error: true
+#| echo: true
+epsilon[:10] #처음 10개
+
+```
+
+```{python}
+#| unilur-solution: true
+np.random.seed(1)
+epsilon=np.random.normal(size=100, loc=0, scale=1)
+
+```
+
+(@) 다음은 $x_1, \ldots, x_{100}$을 생성할 차례이다. `numpy`의 `random.normal` 함수를 통해 독립인 균등확률변수의 실현값을 생성할 수 있다. 예를 들어, 구간 $(1,2)$에서 균등확률변수를 10개 생성하는 코드는 다음과 같다.
+
+```{python}
+#| error: true
+#| echo: true
+#| eval: false
+np.random.uniform(size=10, low=1, high=2)
+
+```
+
+앞서 가정한 시뮬레이션 모형에 맞게, 구간 $(0,10)$에서 균등정규분포를 따르는 100개의 표본을 독립적으로 생성하고 `x`이라는 이름의 변수에 저장하시오. 예를 들어, `np.random.seed(1)`로 잡고 얻은 결과는 다음과 같다.
+
+```{python}
+#| error: true
+#| echo: true
+np.random.seed(1)
+#적절한 코드로 생성
+
+```
+
+```{python}
+#| error: true
+#| echo: false
+np.random.seed(1)
+x=np.random.uniform(size=100, low=0, high=10)
+
+```
+
+```{python}
+#| error: true
+#| echo: true
+x[:10] #처음 10개
+
+```
+
+```{python}
+#| error: true
+#| echo: true
+x.sort()
+x[:10] #처음 10개
+
+```
+
+<!--
+우선 앞서 생성한 `x`를 정렬해 두기로 한다.
+
+#```{python}
+#| unilur-solution: true
+np.random.seed(1)
+x=np.random.uniform(size=100, low=0, high=10)
+
+#```
+-->
+
+(@) `numpy`에서 제공하는 `column_stack` 함수는 배열을 여러 개 받아 각 배열을 열로 하는 2차원 배열을 생성한다. `x`와 `x`를 `column_stack` 함수로 결합하여 2차원 배열 `X` (대문자) 를 생성하시오.
+
+```{python}
+#| error: true
+#| echo: false
+X = np.column_stack((x, x))
+
+```
+
+```{python}
+#| error: true
+#| echo: true
+X[:10,:] 
+
+```
+
+```{python}
+#| unilur-solution: true
+X = np.column_stack((x, x))
+
+```
+
+(@) `statsmodel`의 `add_constant`함수를 이용하면 design matrix $X$에 상수항을 나타내는 열을 추가할 수 있다. 이를 이용해 앞서 정의한 행렬 `X`를 다음과 같이 업데이트 하시오.
+
+```{python}
+#| error: true
+#| echo: false
+X = sm.add_constant(X)
+
+```
+
+```{python}
+#| error: true
+#| echo: true
+X[:10,:] 
+
+```
+
+```{python}
+#| unilur-solution: true
+#X = sm.add_constant(X)
+
+```
+
+(@) 앞서 정의한 행렬 `X`에서 중복된 열을 삭제하기 위해 `numpy`의 `delete` 함수를 이용할 수 있다. 이때, 옵션으로 `axis=1`을 이용하면 열을 삭제할 수 있다. 중복된 열 중 하나를 삭제하여 `X`를 다음과 같이 만드시오.
+
+```{python}
+#| error: true
+#| echo: false
+X = np.delete(X, 1, axis=1)
+
+```
+
+```{python}
+#| error: true
+#| echo: true
+X[:10,:] 
+
+```
+
+```{python}
+#| unilur-solution: true
+#X = np.delete(X, 1, axis=1)
+
+```
+
+(@) 앞서 정의한 $y_i = \beta_0 + \beta_1 x_i + \varepsilon_i, \quad{} i=1,\ldots, 100$를 생성하기 위해 다음과 같이 벡터와 행렬 형태의 식을 이용하기로 한다.
+$$
+\mathbf{y} = \mathbf{X} \pmb{\beta} + \pmb{\varepsilon},
+$$
+이때
+- $\mathbf{y} = (y_1, \ldots, y_{100})^T$
+- $\mathbf{X} = \begin{bmatrix} 1 & x_1 \\ 1 & x_2 \\ \vdots & \vdots \\ 1 & x_{100} \end{bmatrix}$
+- $\pmb{\beta} = (\beta_0, \beta_1)^T$
+- $\pmb{\varepsilon} = (\varepsilon_1, \ldots, \varepsilon_{100})^T$
+
+`numpy`의 `dot` 함수는 행렬곱을 할 수 있으며, $\mathbf{X}\pmb{\beta}$를 계산할 때 도움을 줄 것이다. `numpy`의 `dot` 함수를 반드시 이용하여 반응변수 벡터 `y`를 생성하시오.
+
+```{python}
+#| error: true
+#| echo: true
+beta = np.array([1,2])
+#y 생성
+
+```
+
+```{python}
+#| error: true
+#| echo: false
+y = np.dot(X, beta) + epsilon
+
+```
+
+```{python}
+#| error: true
+#| echo: true
+y[:10] #처음 10개
+
+```
+
+```{python}
+#| unilur-solution: true
+beta = np.array([1,2])
+y = np.dot(X, beta) + epsilon
+y[:10] #처음 10개
+
+```
+
+(@) `numpy`의 `transpose`는 전치행렬을 구해준다. 이를 이용해 $\mathbf{X}$의 전치행렬 $\mathbf{X}^T$를 구하시오.
+
+```{python}
+#| unilur-solution: true
+np.transpose(X)
+
+```
+
+(@) 파이썬에서 `@` 연산자는 행렬곱을 의미한다. 이를 이용해 $\mathbf{X}^T\mathbf{X}$를 구하고 이를 `XTX`라는 변수에 저장하시오.
+
+```{python}
+#| error: true
+#| echo: false
+XTX = np.transpose(X) @ X
+
+```
+
+```{python}
+#| error: true
+#| echo: true
+XTX
+
+```
+
+```{python}
+#| unilur-solution: true
+XTX = np.transpose(X) @ X
+XTX
+
+```
+
+(@) `numpy`의 `linalg.inv` 함수로 역행렬을 구할 수 있다. `linalg.inv` 함수를 이용해 $\mathbf{X}^T\mathbf{X}$의 역행렬을 구하고 이를 `X_inv`라는 이름의 변수로 저장하시오.
+
+```{python}
+#| error: true
+#| echo: false
+X_inv = np.linalg.inv(XTX)
+
+```
+
+```{python}
+#| error: true
+#| echo: true
+X_inv
+
+```
+
+```{python}
+#| unilur-solution: true
+X_inv = np.linalg.inv(XTX)
+X_inv
+
+```
+
+(@) 최소제곱법으로 $\pmb{\beta}$의 추정량 $\hat{\pmb{\beta}}$는 다음과 같이 구할 수 있다.
+$$
+\hat{\pmb{\beta}} = (\mathbf{X}^T\mathbf{X})^{-1}\mathbf{X}^T\mathbf{y}
+$$
+
+앞서 구했던 결과들을 활용하여, 이 자료에서 $\hat{\pmb{\beta}}$를 구하시오.
+
+```{python}
+#| unilur-solution: true
+betahat0 = X_inv @ np.transpose(X) @ y
+betahat0
+
+```
+
+(@) `statsmodel` 라이브러리에서는 $\mathbf{y}$, $\mathbf{X}$가 주어졌을 때, 최소제곱법을 다음과 같이 구할 수 있게 해준다. 적합한 모형을 `result`에 저장하였다.
+
+```{python}
+#| error: true
+#| echo: true
+model = sm.OLS(y, X)
+result = model.fit()
+
+```
+
+만들어진 `result` 오브젝트에는 `summary()` 메소드를 제공하고, 이를 `print`함으로써 회귀분석표를 제공해준다. 회귀분석표를 출력해보고 `OLS`를 통해 얻은 $\hat{\pmb{\beta}}$이 앞 문제에서의 결과와 같은지 비교하시오.
+
+```{python}
+#| unilur-solution: true
+print(result.summary())
+
+```
+
+(@) `result` 오브젝트에 `t_test([0,1])`을 이용하면 적합된 회귀계수가 0인지 아닌지 검정할 수 있다. `t_test`를 이용해 $H_0: \beta_1 =0$에 대한 $t$-검정을 진행해보고 $\alpha=0.05$일때 가설검정의 결과를 말하시오.
+
+```{python}
+#| unilur-solution: true
+print(result.t_test([0,1]))
+#귀무가설 기각
+
+```
+
+<!--
+https://www.geeksforgeeks.org/confidence-and-prediction-intervals-with-statsmodels/
+-->
+
+(@) `pyplot`의 `scatterplot` 함수를 이용해 `x`와 `y`의 산점도를 그리시오. 예시 그림은 다음과 같다.
+
+```{python}
+#| error: true
+#| echo: false
+plt.scatter(x, y, label='Data')
+
+```
+
+```{python}
+#| unilur-solution: true
+plt.scatter(x, y, label='Data')
+
+```
+
+(@) 앞서 그린 산점도에 `pyplot`의 `plot` 함수를 이용하여 적합된 회귀직선을 그리시오. 적합된 회귀직선은 `result`의 `fittedvalues`를 이용해 가져올 수 있다.
+
+```{python}
+#| error: true
+#| echo: false
+plt.scatter(x, y, label='Data')
+plt.plot(x, result.fittedvalues, color='red', label='Fitted Line')
+
+```
+
+```{python}
+#| unilur-solution: true
+plt.scatter(x, y, label='Data')
+plt.plot(x, result.fittedvalues, color='red', label='Fitted Line')
+
+```
+
+(@) `result`에 `get_prediction` 메소드를 적용시킨 후 `summary_frame`을 통해 신뢰구간과 예측구간을 추출할 수 있다.
+
+```{python}
+#| error: true
+#| echo: true
+pred = result.get_prediction(X)
+pred_summary = pred.summary_frame(alpha=0.05) #95% CI
+#confidence intervals
+ci_lower = pred_summary['mean_ci_lower']
+ci_upper = pred_summary['mean_ci_upper']
+#prediction intervals
+pi_lower = pred_summary['obs_ci_lower']
+pi_upper = pred_summary['obs_ci_upper']
+
+```
+
+`pyplot`에 `fill_between` 함수를 이용해 신뢰구간과 예측구간을 표현할 수 있다. 앞서 그린 산점도에 신뢰구간과 예측구간을 표현하시오. 예시 결과는 다음과 같다.
+
+```{python}
+#| error: true
+#| echo: false
+plt.scatter(x, y, label='Data')
+plt.plot(x, result.fittedvalues, color='red', label='Fitted Line')
+plt.fill_between(x, ci_lower, ci_upper, color='red', alpha=0.3, label='95% CI')
+plt.fill_between(x, pi_lower, pi_upper, color='blue', alpha=0.2, label='95% PI')
+
+```
+
+```{python}
+#| unilur-solution: true
+plt.scatter(x, y, label='Data')
+plt.plot(x, result.fittedvalues, color='red', label='Fitted Line')
+plt.fill_between(x, ci_lower, ci_upper, color='red', alpha=0.3, label='95% CI')
+plt.fill_between(x, pi_lower, pi_upper, color='blue', alpha=0.2, label='95% PI')
+
+plt.xlabel('X')
+plt.ylabel('Y')
+plt.legend()
+plt.show()
+
+```
+
+<!--
+https://datascienceschool.net/03%20machine%20learning/05.03%20%EB%A0%88%EB%B2%84%EB%A6%AC%EC%A7%80%EC%99%80%20%EC%95%84%EC%9B%83%EB%9D%BC%EC%9D%B4%EC%96%B4.html
+-->
+
+(@) `result`에서 `get_influence` 메소드를 호출하고, 이 객체의 `hat_matrix_diag` 속성으로 대각원소만 추출하면 각 관찰값마다 leverage 값을 구할 수 있다. 이 모형에서 leverage의 최댓값을 구하시오.
+
+```{python}
+#| unilur-solution: true
+influence = result.get_influence()
+hat = influence.hat_matrix_diag
+np.amax(np.abs(hat))
+
+```
+
+<!--
+https://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html
+-->
+
+# 회귀분석 예제: `scikit-learn`
+
+싸이킷런(scikit-learn)이란 파이썬에서 머신러닝 방법론을 사용할 수 있게 하는 대표적인 라이브러리이다. 여기에서는 이 라이브러리에 있는 비만 관련 자료를 이용해 보기로 한다.
+
+```{python}
+#| error: true
+#| echo: true
+import pandas as pd  
+import numpy as np  
+import sklearn       
+import seaborn as sns 
+from sklearn.datasets import load_diabetes
+diabetes = load_diabetes()
+diabetes.target[:3]
+diabetes.data.shape
+
+```
+
+(@) 주어진 자료를 `train`, `test` 집합으로 나누기 위해 `scikit-learn`의 `train_test_split`를 이용하기로 한다.
+
+```{python}
+#| error: true
+#| echo: true
+from sklearn.model_selection import train_test_split
+X, y = load_diabetes(return_X_y=True)
+X = X[:, [2]]  # Use only one feature
+X_train,X_test,y_train,y_test=train_test_split(X,y,test_size=20,shuffle=False)
+
+```
+
+`y_train`을 반응변수, `x_train`을 설명변수 행렬로 하여 회귀모형을 구축하고 `regressor`라는 변수 이름에 저장하시오. 이때 `scikit-learn`의 `LinearRegression`을 import해 사용하기로 한다.
+
+```{python}
+#| error: true
+#| echo: true
+from sklearn.linear_model import LinearRegression
+#만약 X, y의 회귀모형을 짜려면
+#regressor = LinearRegression().fit(X,y)
+#X_train, y_train에 대한 회귀모형으로 바꿔볼 것
+
+```
+
+```{python}
+#| unilur-solution: true
+regressor = LinearRegression().fit(X_train,y_train)
+
+```
+
+(@) `regressor`에 `predict` 메소드를 이용해 새로운 `X`에 대한 예측값을 구할 수 있다. `X_test`에 대한 회귀모형의 예측값들을 구하고 이를 `y_pred`라는 변수에 저장하시오.
+
+```{python}
+#| error: true
+#| echo: false
+y_pred = regressor.predict(X_test)
+
+```
+
+```{python}
+#| error: true
+#| echo: true
+y_pred
+
+```
+
+```{python}
+#| unilur-solution: true
+y_pred = regressor.predict(X_test)
+y_pred
+
+```
+
+(@) 다음과 같은 명령어를 이용해 예측값에 대한 mean squared error 함수를 이용할 수 있다.
+
+```{python}
+#| error: true
+#| echo: true
+from sklearn.metrics import mean_squared_error
+
+```
+
+`mean_squared_error`를 이용해 `y_test`와 `y_pred` 사이의 mean squared error를 구하시오.
+
+```{python}
+#| unilur-solution: true
+mean_squared_error(y_test, y_pred)
+
+```
+
+(@) 결정계수는 보통 회귀모형의 설명력을 측정하기 위해 사용하지만, 결정계수는 상관계수와도 관련이 있기 때문에, `y_test`와 `y_pred` 사이의 결정계수를 측정하는 것은 둘 사이의 상관성을 보는 것과 일맥상통한다.  다음과 같은 명령어를 이용해 예측값에 대한 r2_score 함수를 이용할 수 있다. 
+
+```{python}
+#| error: true
+#| echo: true
+from sklearn.metrics import r2_score
+
+```
+
+`r2_score`를 이용해 `y_test`와 `y_pred` 사이의 r2_score를 구하시오.
+
+```{python}
+#| unilur-solution: true
+r2_score(y_test, y_pred)
+
+```
+
+최종적으로 이 모형에 대한 train_set, test_set에서의 결과는 다음과 같이 시각화할 수 있다.
+
+```{python}
+#| error: true
+#| echo: true
+import matplotlib.pyplot as plt
+
+fig, ax = plt.subplots(ncols=2, figsize=(10, 5), sharex=True, sharey=True)
+
+ax[0].scatter(X_train, y_train, label="Train data points")
+ax[0].plot(
+    X_train,
+    regressor.predict(X_train),
+    linewidth=3,
+    color="tab:orange",
+    label="Model predictions",
+)
+ax[0].set(xlabel="Feature", ylabel="Target", title="Train set")
+ax[0].legend()
+
+ax[1].scatter(X_test, y_test, label="Test data points")
+ax[1].plot(X_test, y_pred, linewidth=3, color="tab:orange", label="Predictions")
+ax[1].set(xlabel="Feature", ylabel="Target", title="Test set")
+ax[1].legend()
+
+fig.suptitle("Linear Regression")
+
+plt.show()
+
+```

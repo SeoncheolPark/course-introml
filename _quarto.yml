@@ -15,8 +15,8 @@ website:
         text: Home
       - text: "Midterm Exam"
         menu:
-          - text: "Midterm Questions"
-            file: big2025mid01.html
+          - text: "Midterm Solutions"
+            file: big2025mid01.qmd
     right: 
       - icon: house-door-fill
         href: https://seoncheolpark.github.io
